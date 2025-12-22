@@ -1,3 +1,112 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "restaurant-sushi-place",
+      "description": "A modern sushi restaurant interior.",
+      "imageUrl": "https://images.unsplash.com/photo-1681270496598-13c5365730c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzdXNoaSUyMHJlc3RhdXJhbnR8ZW58MHx8fHwxNzY2MzE4NzkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sushi restaurant"
+    },
+    {
+      "id": "restaurant-pizza-den",
+      "description": "A cozy pizza place with a brick oven.",
+      "imageUrl": "https://images.unsplash.com/photo-1489564239502-7a532064e1c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwaXp6YSUyMHJlc3RhdXJhbnR8ZW58MHx8fHwxNzY2NDIyNjEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pizza restaurant"
+    },
+    {
+      "id": "restaurant-taco-town",
+      "description": "A vibrant and colorful taco restaurant.",
+      "imageUrl": "https://images.unsplash.com/photo-1594482689190-50958612d742?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0YWNvJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjY0MjI2MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "taco restaurant"
+    },
+    {
+      "id": "restaurant-burger-hub",
+      "description": "A classic American diner-style burger joint.",
+      "imageUrl": "https://images.unsplash.com/photo-1695606392868-b9ed053e1c0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxidXJnZXIlMjBqb2ludHxlbnwwfHx8fDE3NjY0MjI2MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "burger joint"
+    },
+    {
+      "id": "restaurant-curry-house",
+      "description": "An elegant Indian restaurant with warm lighting.",
+      "imageUrl": "https://images.unsplash.com/photo-1587574293340-e0011c4e8ecf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxpbmRpYW4lMjByZXN0YXVyYW50fGVufDB8fHx8MTc2NjQxMjk0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian restaurant"
+    },
+    {
+      "id": "restaurant-pho-king",
+      "description": "A minimalist Vietnamese restaurant.",
+      "imageUrl": "https://images.unsplash.com/photo-1711333929319-0fc535e9d306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx2aWV0bmFtZXNlJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjY0MjI2MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vietnamese restaurant"
+    },
+    {
+      "id": "restaurant-pasta-palace",
+      "description": "A rustic Italian trattoria.",
+      "imageUrl": "https://images.unsplash.com/photo-1611765083444-a3ce30f1c885?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxpdGFsaWFuJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjY0MjI2MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "italian restaurant"
+    },
+    {
+      "id": "restaurant-bbq-shack",
+      "description": "A lively barbecue restaurant with outdoor seating.",
+      "imageUrl": "https://images.unsplash.com/photo-1680404971036-33eaa1d2d840?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YmJxJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjY0MjI2MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bbq restaurant"
+    },
+    {
+      "id": "menu-sushi-roll",
+      "description": "A platter of assorted sushi rolls.",
+      "imageUrl": "https://images.unsplash.com/photo-1759646828324-c215a83828ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3VzaGklMjBwbGF0dGVyfGVufDB8fHx8MTc2NjM4NjIzMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sushi platter"
+    },
+    {
+      "id": "menu-margherita-pizza",
+      "description": "A classic margherita pizza with fresh basil.",
+      "imageUrl": "https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtYXJnaGVyaXRhJTIwcGl6emF8ZW58MHx8fHwxNzY2MzQwNjAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "margherita pizza"
+    },
+    {
+      "id": "menu-street-tacos",
+      "description": "A plate of authentic street tacos.",
+      "imageUrl": "https://images.unsplash.com/photo-1621334953333-ba703fcb434d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzdHJlZXQlMjB0YWNvc3xlbnwwfHx8fDE3NjYzNzg3ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "street tacos"
+    },
+    {
+      "id": "menu-cheeseburger",
+      "description": "A juicy cheeseburger with fries.",
+      "imageUrl": "https://images.unsplash.com/photo-1700916536887-95b4742b6dd6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGVlc2VidXJnZXIlMjBmcmllc3xlbnwwfHx8fDE3NjYzODQxNjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cheeseburger fries"
+    },
+    {
+      "id": "menu-chicken-curry",
+      "description": "A bowl of rich chicken tikka masala.",
+      "imageUrl": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGlja2VuJTIwY3Vycnl8ZW58MHx8fHwxNzY2NDA5MzAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chicken curry"
+    },
+    {
+      "id": "menu-pho-soup",
+      "description": "A steaming bowl of Vietnamese pho.",
+      "imageUrl": "https://images.unsplash.com/photo-1596016764780-a5fdbe817fbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwaG8lMjBzb3VwfGVufDB8fHx8MTc2NjQyMjYxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pho soup"
+    },
+    {
+      "id": "menu-spaghetti-carbonara",
+      "description": "A creamy plate of spaghetti carbonara.",
+      "imageUrl": "https://images.unsplash.com/photo-1675101298938-1b15fc61c603?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3BhZ2hldHRpJTIwY2FyYm9uYXJhfGVufDB8fHx8MTc2NjM2ODUzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "spaghetti carbonara"
+    },
+    {
+      "id": "menu-bbq-ribs",
+      "description": "A rack of smoky BBQ ribs.",
+      "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYnElMjByaWJzfGVufDB8fHx8MTc2NjQyMjYxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bbq ribs"
+    },
+    {
+      "id": "restaurant-cover-sushi",
+      "description": "A wide shot of a sushi bar.",
+      "imageUrl": "https://images.unsplash.com/photo-1651977560784-488c2b872df1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzdXNoaSUyMGJhcnxlbnwwfHx8fDE3NjYzODM2ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sushi bar"
+    },
+    {
+      "id": "restaurant-cover-pizza",
+      "description": "A chef preparing pizza dough.",
+      "imageUrl": "https://images.unsplash.com/photo-1710575326152-4a397c13716d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwaXp6YSUyMGNoZWZ8ZW58MHx8fHwxNzY2NDIyNjEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pizza chef"
+    }
+  ]
 }
