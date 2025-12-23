@@ -26,3 +26,8 @@ export interface MenuItem {
 export interface CartItem extends MenuItem {
   quantity: number;
 }
+
+export interface User {
+    email: string;
+    fullName: string;
+}

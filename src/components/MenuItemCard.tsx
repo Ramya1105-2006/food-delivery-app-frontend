@@ -29,7 +29,7 @@ export function MenuItemCard({ item }: MenuItemCardProps) {
         <h3 className="font-bold font-headline">{item.name}</h3>
         <p className="mt-1 text-sm text-muted-foreground">{item.description}</p>
         <p className="mt-2 font-semibold text-primary">
-          ${item.price.toFixed(2)}
+          ₹{item.price.toFixed(2)}
         </p>
       </div>
       <div className="flex flex-col items-end gap-2">

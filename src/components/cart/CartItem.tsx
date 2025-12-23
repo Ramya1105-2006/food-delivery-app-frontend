@@ -27,7 +27,7 @@ export function CartItem({ item }: CartItemProps) {
       </div>
       <div className="flex-1">
         <h4 className="font-semibold truncate">{item.name}</h4>
-        <p className="text-sm text-muted-foreground">${item.price.toFixed(2)}</p>
+        <p className="text-sm text-muted-foreground">₹{item.price.toFixed(2)}</p>
         <div className="mt-2 flex items-center">
           <Button
             variant="outline"

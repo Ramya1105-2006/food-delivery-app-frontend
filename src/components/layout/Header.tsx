@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Logo } from "@/components/icons/Logo";
 import { CartIcon } from "../cart/CartIcon";
+import { UserNav } from "./UserNav";
 
 export function Header() {
   return (
@@ -14,12 +15,7 @@ export function Header() {
           </span>
         </Link>
         <div className="flex items-center gap-4">
-          <Button variant="ghost" asChild>
-            <Link href="/login">Log In</Link>
-          </Button>
-          <Button className="bg-primary hover:bg-primary/90" asChild>
-            <Link href="/signup">Sign Up</Link>
-          </Button>
+          <UserNav />
           <CartIcon />
         </div>
       </div>

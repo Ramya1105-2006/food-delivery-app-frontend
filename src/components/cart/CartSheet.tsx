@@ -74,7 +74,7 @@ export function CartSheet({ children, open, onOpenChange }: CartSheetProps) {
                     <Separator />
                     <div className="flex items-center justify-between text-lg font-bold">
                         <span>Total:</span>
-                        <span>${cartTotal.toFixed(2)}</span>
+                        <span>₹{cartTotal.toFixed(2)}</span>
                     </div>
                     <Button
                         size="lg"

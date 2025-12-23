@@ -28,6 +28,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { Loader2 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import { useAuth } from "@/hooks/use-auth";
 
 const formSchema = z.object({
   email: z.string().email({ message: "Invalid email address." }),
@@ -39,6 +40,7 @@ const formSchema = z.object({
 export default function LoginPage() {
   const router = useRouter();
   const { toast } = useToast();
+  const { login } = useAuth();
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const form = useForm<z.infer<typeof formSchema>>({
@@ -51,13 +53,14 @@ export default function LoginPage() {
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
     setIsSubmitting(true);
-    console.log("Simulating login with:", values);
     
     // Simulate API call
     await new Promise((resolve) => setTimeout(resolve, 1000));
 
     // In a real app, you would handle authentication here.
-    // For this prototype, we'll just show a success message and redirect.
+    // For this prototype, we'll just simulate a successful login.
+    login({ email: values.email, fullName: "Test User" });
+    
     toast({
       title: "Logged In!",
       description: "Welcome back!",
