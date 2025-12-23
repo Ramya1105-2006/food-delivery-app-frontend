@@ -5,6 +5,7 @@ import { Star, Clock } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 import { MenuItemCard } from "@/components/MenuItemCard";
 import type { Metadata } from 'next'
+import React from 'react';
  
 type Props = {
   params: { id: string }
