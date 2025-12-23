@@ -1,67 +1,196 @@
+
 import { getRestaurants } from "@/lib/data";
+import { DishCard } from "@/components/DishCard";
 import { RestaurantCard } from "@/components/RestaurantCard";
 import { Input } from "@/components/ui/input";
-import { Search } from "lucide-react";
-import { Suspense } from "react";
-import { Skeleton } from "@/components/ui/skeleton";
+import { Button } from "@/components/ui/button";
+import { Search, MapPin, ArrowRight, Utensils, Bike, Leaf, ShieldCheck } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
+import { Badge } from "@/components/ui/badge";
 
-async function RestaurantGrid() {
+const cuisineCategories = [
+  { name: "South Indian", icon: "https://picsum.photos/seed/cat1/100" },
+  { name: "North Indian", icon: "https://picsum.photos/seed/cat2/100" },
+  { name: "Biryani", icon: "https://picsum.photos/seed/cat3/100" },
+  { name: "Street Food", icon: "https://picsum.photos/seed/cat4/100" },
+  { name: "Chinese", icon: "https://picsum.photos/seed/cat5/100" },
+  { name: "Fast Food", icon: "https://picsum.photos/seed_fastfood/100/100" },
+  { name: "Desserts", icon: "https://picsum.photos/seed/cat7/100" },
+];
+
+const popularDishes = [
+    { id: "sih1", name: "Masala Dosa", description: "Crispy crepe with spiced potato filling.", price: 120.00, image: { imageUrl: "https://images.unsplash.com/photo-1643221124559-62b8a78377da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXNhbGElMjBkb3NhfGVufDB8fHx8MTcxNzUzNjM0Nnww&ixlib=rb-4.0.3&q=80&w=1080", imageHint: "masala dosa" }, type: 'veg' },
+    { id: "bp1", name: "Chicken Dum Biryani", description: "Aromatic rice and chicken cooked in a sealed pot.", price: 350.00, image: { imageUrl: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlja2VuJTIwYmlyeWFuaXxlbnwwfHx8fDE3MTc1MzY2ODV8MA&ixlib=rb-4.0.3&q=80&w=1080", imageHint: "chicken biryani" }, type: 'non-veg' },
+    { id: "pd1", name: "Paneer Butter Masala", description: "Cottage cheese in a creamy tomato gravy.", price: 320.00, image: { imageUrl: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYW5lZXIlMjBidXR0ZXIlMjBtYXNhbGF8ZW58MHx8fHwxNzE3NTM2ODgxfDA&ixlib=rb-4.0.3&q=80&w=1080", imageHint: "paneer masala" }, type: 'veg' },
+    { id: "cc1", name: "Pani Puri", description: "Hollow crisps filled with tangy water.", price: 70.00, image: { imageUrl: "https://images.unsplash.com/photo-1631782290008-59c4a8d38b64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYW5pJTIwcHVyaXxlbnwwfHx8fDE3MTc1MzcwMTN8MA&ixlib=rb-4.0.3&q=80&w=1080", imageHint: "pani puri" }, type: 'veg' },
+];
+
+const features = [
+    { icon: Bike, title: "Fast Delivery", description: "Get your food delivered in minutes." },
+    { icon: Leaf, title: "Fresh & Hygienic Food", description: "Prepared with the freshest ingredients." },
+    { icon: Utensils, title: "Wide Variety", description: "Hundreds of dishes to choose from." },
+    { icon: ShieldCheck, title: "Secure Payments", description: "Safe and easy online payments." },
+];
+
+async function TopRestaurants() {
   const allRestaurants = await getRestaurants();
-
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-      {allRestaurants.map((restaurant) => (
-        <RestaurantCard key={restaurant.id} restaurant={restaurant} />
-      ))}
-    </div>
+    <Carousel opts={{ align: "start", loop: true }} className="w-full">
+      <CarouselContent>
+        {allRestaurants.map((restaurant) => (
+          <CarouselItem key={restaurant.id} className="md:basis-1/2 lg:basis-1/3">
+              <div className="p-1">
+                <RestaurantCard restaurant={restaurant} />
+              </div>
+          </CarouselItem>
+        ))}
+      </CarouselContent>
+      <CarouselPrevious className="absolute left-0 top-1/2 -translate-y-1/2 z-10 hidden sm:flex" />
+      <CarouselNext className="absolute right-0 top-1/2 -translate-y-1/2 z-10 hidden sm:flex" />
+    </Carousel>
   );
 }
 
-function RestaurantGridSkeleton() {
-    return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-            {Array.from({ length: 8 }).map((_, i) => (
-                <div key={i} className="flex flex-col space-y-3">
-                    <Skeleton className="h-[200px] w-full rounded-xl" />
-                    <div className="space-y-2">
-                        <Skeleton className="h-4 w-3/4" />
-                        <Skeleton className="h-4 w-1/2" />
-                    </div>
-                </div>
-            ))}
-        </div>
-    );
-}
 
 export default function Home() {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <section className="text-center py-12 md:py-20">
-        <h1 className="text-4xl md:text-6xl font-bold font-headline text-primary animate-fade-in-down">
-          Find Your Next Craving
-        </h1>
-        <p className="mt-4 text-lg text-foreground/80 max-w-2xl mx-auto animate-fade-in-up">
-          From local favorites to exotic cuisines, Indian Food Hub brings the
-          best food right to your doorstep.
-        </p>
-        <div className="mt-8 max-w-lg mx-auto relative">
-          <Input
-            placeholder="Search for restaurants or dishes..."
-            className="h-14 pl-12 text-md border-2 focus:border-primary focus:ring-primary/20"
-            aria-label="Search for restaurants or dishes"
-          />
-          <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-6 w-6 text-muted-foreground" />
+    <div className="bg-background">
+      {/* Hero Section */}
+      <section className="relative h-[60vh] min-h-[400px] w-full">
+        <Image 
+          src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=2080&auto=format&fit=crop"
+          alt="A delicious spread of Indian food"
+          fill
+          className="object-cover"
+          priority
+          data-ai-hint="indian food spread"
+        />
+        <div className="absolute inset-0 bg-black/50" />
+        <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-white px-4">
+          <h1 className="text-4xl md:text-6xl font-bold font-headline animate-fade-in-down">
+            Delicious Indian Food, Delivered to Your Doorstep
+          </h1>
+          <p className="mt-4 text-lg md:text-xl max-w-2xl animate-fade-in-up">
+            From street food to royal biryanis — order your favorites anytime.
+          </p>
+          <div className="mt-8 flex w-full max-w-2xl flex-col sm:flex-row items-center gap-2 rounded-full bg-white p-2 shadow-lg">
+            <div className="flex items-center w-full sm:w-auto flex-1 pl-4">
+              <MapPin className="h-5 w-5 text-muted-foreground" />
+              <Button variant="link" className="text-foreground font-semibold">
+                Select Location
+              </Button>
+            </div>
+            <div className="hidden sm:block h-8 border-l border-gray-200"></div>
+            <div className="flex items-center w-full flex-[2]">
+                <Input
+                    placeholder="Search for dishes or cuisines..."
+                    className="h-12 border-none text-md focus-visible:ring-0 focus-visible:ring-offset-0"
+                    aria-label="Search for dishes or cuisines"
+                />
+                <Button size="icon" className="rounded-full w-10 h-10 mr-1 bg-primary">
+                    <Search className="h-5 w-5 text-primary-foreground" />
+                </Button>
+            </div>
+          </div>
         </div>
       </section>
+      
+      <div className="container mx-auto px-4 py-8">
+        {/* Cuisine Categories Section */}
+        <section className="py-12">
+            <h2 className="text-3xl font-bold font-headline mb-8 text-center">What's on your mind?</h2>
+             <Carousel opts={{ align: "start" }} className="w-full">
+                <CarouselContent>
+                    {cuisineCategories.map((category) => (
+                    <CarouselItem key={category.name} className="basis-1/3 sm:basis-1/4 md:basis-1/6 lg:basis-1/8">
+                        <Link href="#" className="group flex flex-col items-center gap-2 text-center">
+                            <div className="relative h-24 w-24 overflow-hidden rounded-full transition-all duration-300 group-hover:scale-105 group-hover:shadow-lg">
+                                <Image
+                                src={category.icon}
+                                alt={category.name}
+                                data-ai-hint="cuisine category"
+                                fill
+                                className="object-cover"
+                                sizes="96px"
+                                />
+                            </div>
+                            <span className="font-semibold text-foreground">{category.name}</span>
+                        </Link>
+                    </CarouselItem>
+                    ))}
+                </CarouselContent>
+             </Carousel>
+        </section>
 
-      <section className="py-12">
-        <h2 className="text-3xl font-bold font-headline mb-8">
-          Popular Near You
-        </h2>
-        <Suspense fallback={<RestaurantGridSkeleton />}>
-            <RestaurantGrid />
-        </Suspense>
-      </section>
+        {/* Popular Dishes Section */}
+        <section className="py-12">
+          <h2 className="text-3xl font-bold font-headline mb-8">Top Picks For You</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            {popularDishes.map((dish) => (
+                // @ts-ignore
+                <DishCard key={dish.id} item={dish} />
+            ))}
+          </div>
+        </section>
+
+        {/* Top Restaurants Section */}
+        <section className="py-12 bg-secondary/30 rounded-lg -mx-4 px-4">
+          <div className="flex items-center justify-between mb-8">
+            <h2 className="text-3xl font-bold font-headline">Top Restaurants Near You</h2>
+            <Button variant="ghost" asChild>
+                <Link href="#">See All <ArrowRight className="ml-2 h-4 w-4" /></Link>
+            </Button>
+          </div>
+          <TopRestaurants />
+        </section>
+
+        {/* Offers & Discounts Section */}
+        <section className="py-12">
+            <h2 className="text-3xl font-bold font-headline mb-8 text-center">Offers For You</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="relative bg-gradient-to-r from-yellow-400 to-orange-500 rounded-xl p-8 text-white overflow-hidden">
+                    <div className="relative z-10">
+                        <h3 className="text-3xl font-bold">Flat 50% OFF</h3>
+                        <p className="mt-2">On your first order. Use code: <Badge variant="secondary" className="text-orange-500 font-bold">FIRST50</Badge></p>
+                        <Button variant="secondary" className="mt-4 text-orange-500">Order Now</Button>
+                    </div>
+                     <Utensils className="absolute -right-4 -bottom-4 h-32 w-32 text-white/20" />
+                </div>
+                <div className="relative bg-gradient-to-r from-green-400 to-teal-500 rounded-xl p-8 text-white overflow-hidden">
+                    <div className="relative z-10">
+                        <h3 className="text-3xl font-bold">Free Delivery</h3>
+                        <p className="mt-2">On all orders above ₹299</p>
+                        <Button variant="secondary" className="mt-4 text-teal-500">Explore Restaurants</Button>
+                    </div>
+                     <Bike className="absolute -right-4 -bottom-4 h-32 w-32 text-white/20" />
+                </div>
+            </div>
+        </section>
+        
+        {/* Why Choose Us Section */}
+        <section className="py-12">
+            <h2 className="text-3xl font-bold font-headline mb-12 text-center">Why Choose Us?</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                {features.map((feature) => (
+                    <div key={feature.title} className="text-center p-6 bg-card rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+                        <div className="flex items-center justify-center h-16 w-16 rounded-full bg-primary/10 text-primary mx-auto mb-4">
+                            <feature.icon className="h-8 w-8" />
+                        </div>
+                        <h3 className="text-xl font-semibold">{feature.title}</h3>
+                        <p className="mt-2 text-muted-foreground">{feature.description}</p>
+                    </div>
+                ))}
+            </div>
+        </section>
+      </div>
     </div>
   );
 }
