@@ -24,9 +24,9 @@ const cuisineCategories = [
   { name: "South Indian", icon: "https://img.freepik.com/premium-photo/indian-cuisine-meals-served-banana-leaf-traditional-south-indian-cuisine_875825-50086.jpg?w=2000", emoji: "🥞" },
   { name: "North Indian", icon: "https://sukhis.com/app/uploads/2022/05/image2-3.jpg", emoji: "🍲" },
   { name: "Biryani", icon: "https://wallpapers.com/images/hd/biryani-1920-x-1281-background-1c1gwrx2o5e156fc.jpg", emoji: "🍗" },
-  { name: "Street Food", icon: "https://picsum.photos/seed/cat4/100", emoji: "🌶️" },
-  { name: "Snacks", icon: "https://picsum.photos/seed/cat5/100", emoji: "🍔" },
-  { name: "Desserts", icon: "https://picsum.photos/seed/cat7/100", emoji: "🍰" },
+  { name: "Street Food", icon: "https://img.freepik.com/premium-photo/indian-street-food_1120177-16868.jpg", emoji: "🌶️" },
+  { name: "Snacks", icon: "https://tse3.mm.bing.net/th/id/OIP.Rk8sTHtxqzrH-71iHcy1zgHaEK?rs=1&pid=ImgDetMain&o=7&rm=3", emoji: "🍔" },
+  { name: "Desserts", icon: "https://www.tasteofhome.com/wp-content/uploads/2021/01/soan-papdi-indian-dessert.jpg", emoji: "🍰" },
 ];
 
 const features = [
