@@ -3,37 +3,37 @@
     {
       "id": "restaurant-rest_south_01",
       "description": "A traditional South Indian restaurant setting.",
-      "imageUrl": "https://images.unsplash.com/photo-1555949258-a3e3d4e0a905?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxpbmRpYW4lMjByZXN0YXVyYW50fGVufDB8fHx8MTc2NjU5ODkzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://assets.vogue.com/photos/63d169f727f1d528635b4287/16:9/w_1280,c_limit/GettyImages-1292563627.jpg",
       "imageHint": "indian restaurant"
     },
     {
       "id": "restaurant-rest_north_01",
       "description": "A rustic and lively Punjabi dhaba.",
-      "imageUrl": "https://images.unsplash.com/photo-1606495145318-34b54e3f491c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwdW5qYWJpJTIwZGhhYmF8ZW58MHx8fHwxNzE3NTM2MTk2fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://tse1.mm.bing.net/th/id/OIP.ocNKTL8uqO6_ChGn6RMJ6gHaD4?rs=1&pid=ImgDetMain&o=7&rm=3",
       "imageHint": "punjabi dhaba"
     },
     {
       "id": "restaurant-rest_biryani_01",
       "description": "An elegant restaurant specializing in Biryani.",
-      "imageUrl": "https://images.unsplash.com/photo-1587574293340-e0011c4e8ecf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxpbmRpYW4lMjByZXN0YXVyYW50fGVufDB8fHx8MTc2NjQxMjk0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://feeds.abplive.com/onecms/images/uploaded-images/2023/10/11/fa6be68d80b1f9676ece11173a8b6ded1697004727372557_original.jpg",
       "imageHint": "mughlai restaurant"
     },
     {
       "id": "restaurant-rest_street_01",
       "description": "A bustling Indian street food stall.",
-      "imageUrl": "https://images.unsplash.com/photo-1585799293674-399853c09b1f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGFhdCUyMHN0YWxsfGVufDB8fHx8MTcxNzUzNjI4MHww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://tildaricelive.s3.eu-central-1.amazonaws.com/wp-content/uploads/2024/07/11111642/Street-food-2440x1470.jpeg",
       "imageHint": "street food"
     },
     {
       "id": "restaurant-rest_snacks_01",
       "description": "A modern cafe serving snacks.",
-      "imageUrl": "https://images.unsplash.com/photo-1555992336-fb0d29498b13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaGluZXNlJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjY1MjY4MDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://clubmahindra.gumlet.io/blog/media/section_images/desktop-2f5b59f667cd19e.jpg?w=376&dpr=2.6",
       "imageHint": "snack cafe"
     },
     {
       "id": "restaurant-rest_dessert_01",
       "description": "A cozy dessert shop with a variety of sweets.",
-      "imageUrl": "https://images.unsplash.com/photo-1551024601-bec78aea704b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkZXNzZXJ0JTIwc2hvcHxlbnwwfHx8fDE3NjY1MjY4MDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images7.alphacoders.com/396/396289.jpg",
       "imageHint": "dessert shop"
     },
     {
@@ -141,7 +141,7 @@
     {
       "id": "menu-kathi-roll",
       "description": "A kathi roll.",
-      "imageUrl": "https://images.unsplash.com/photo-1697307157652-2b83f11cf9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxrYXRoaSUyMHJvbGx8ZW58MHx8fHwxNzY2NDI1MjYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1697307157652-2b83f11cf9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxrYXRoaSUyMHJvbGx8ZW58MHx8fHwxNzY2NDI1MjYzfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "kathi roll"
     },
     {
@@ -159,7 +159,7 @@
     {
       "id": "menu-burger",
       "description": "A chicken burger.",
-      "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidXJnZXJ8ZW58MHx8fHwxNzY2NDQ4ODQ3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidXJnZXJ8ZW58MHx8fHwxNzY2NDQ4ODQ3fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "burger"
     },
     {
