@@ -1,7 +1,7 @@
 
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { getRestaurants, getPopularDishes } from "@/lib/data";
 import { DishCard } from "@/components/DishCard";
 import { RestaurantCard } from "@/components/RestaurantCard";
@@ -38,13 +38,13 @@ const features = [
 function TopRestaurants() {
     const [restaurants, setRestaurants] = useState<Omit<Restaurant, 'menu'>[]>([]);
 
-    useState(() => {
+    useEffect(() => {
         async function fetchRestaurants() {
             const allRestaurants = await getRestaurants();
             setRestaurants(allRestaurants);
         }
         fetchRestaurants();
-    });
+    }, []);
 
   if (!restaurants.length) return null; // Or a loading skeleton
 
@@ -68,15 +68,28 @@ function TopRestaurants() {
 
 export default function Home() {
     const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
-    const [popularDishes, setPopularDishes] = useState<MenuItem[]>([]);
+    const [allDishes, setAllDishes] = useState<MenuItem[]>([]);
 
-    useState(() => {
-        async function fetchDishes() {
-            const dishes = await getPopularDishes();
-            setPopularDishes(dishes);
+    useEffect(() => {
+        async function fetchAllData() {
+            const restaurants = await getRestaurants();
+            const allMenuItems = restaurants.flatMap(r => 
+                r.menu ? r.menu.flatMap(mc => mc.items) : []
+            );
+            
+            // In a real app, we would fetch restaurant data which includes the menu.
+            // For this prototype, we need to get all restaurants and then their menus.
+            const restaurantDetails = await Promise.all(restaurants.map(r => import(`@/lib/data`).then(mod => mod.getRestaurantById(r.id))));
+
+            const allItems = restaurantDetails
+                .filter((r): r is Restaurant => r !== undefined)
+                .flatMap(r => r.menu)
+                .flatMap(mc => mc.items);
+
+            setAllDishes(allItems);
         }
-        fetchDishes();
-    });
+        fetchAllData();
+    }, []);
 
     const handleCategorySelect = (categoryName: string) => {
         setSelectedCategory(categoryName);
@@ -88,21 +101,22 @@ export default function Home() {
 
     const getFilteredDishes = () => {
         if (!selectedCategory) {
-            return popularDishes;
+            // Show a default selection of popular dishes when no category is selected.
+            const popularDishIds = ['si-1', 'b-1', 'ni-1', 'sf-1'];
+            return allDishes.filter(dish => popularDishIds.includes(dish.id));
         }
-        // This is a mock filter. In a real app, you'd fetch this data.
-        // For now, it just filters the popular dishes based on some keywords.
+        
         const lowerCaseCategory = selectedCategory.toLowerCase();
         
         // A more robust filtering logic
-        if(lowerCaseCategory.includes('south indian')) return popularDishes.filter(d => d.id.startsWith('si-'));
-        if(lowerCaseCategory.includes('north indian')) return popularDishes.filter(d => d.id.startsWith('ni-'));
-        if(lowerCaseCategory.includes('biryani')) return popularDishes.filter(d => d.id.startsWith('b-'));
-        if(lowerCaseCategory.includes('street food')) return popularDishes.filter(d => d.id.startsWith('sf-'));
-        if(lowerCaseCategory.includes('snacks')) return popularDishes.filter(d => d.id.startsWith('sn-'));
-        if(lowerCaseCategory.includes('desserts')) return popularDishes.filter(d => d.id.startsWith('d-'));
+        if(lowerCaseCategory.includes('south indian')) return allDishes.filter(d => d.id.startsWith('si-'));
+        if(lowerCaseCategory.includes('north indian')) return allDishes.filter(d => d.id.startsWith('ni-'));
+        if(lowerCaseCategory.includes('biryani')) return allDishes.filter(d => d.id.startsWith('b-'));
+        if(lowerCaseCategory.includes('street food')) return allDishes.filter(d => d.id.startsWith('sf-'));
+        if(lowerCaseCategory.includes('snacks')) return allDishes.filter(d => d.id.startsWith('sn-'));
+        if(lowerCaseCategory.includes('desserts')) return allDishes.filter(d => d.id.startsWith('d-'));
 
-        return popularDishes.filter(dish => 
+        return allDishes.filter(dish => 
             dish.name.toLowerCase().includes(lowerCaseCategory) || 
             dish.description.toLowerCase().includes(lowerCaseCategory)
         );
