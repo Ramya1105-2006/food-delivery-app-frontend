@@ -49,15 +49,9 @@
       "imageHint": "idli sambar"
     },
     {
-      "id": "menu-vada",
-      "description": "Crispy Medu Vada with coconut chutney.",
-      "imageUrl": "https://media.istockphoto.com/id/1269382218/photo/south-indian-food-vada-sambar.jpg?s=1024x1024&w=is&k=20&c=6k5j_H_x41nnh2hN63gExi033D3yGk6x2uM2ec_TCRc=",
-      "imageHint": "medu vada"
-    },
-    {
       "id": "menu-pongal",
       "description": "A bowl of delicious pongal.",
-      "imageUrl": "https://images.unsplash.com/photo-1578755993043-ae4e4b7a19de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwb25nYWx8ZW58MHx8fHwxNzY2NDExNzgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1578755993043-ae4e4b7a19de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwb25nYWx8ZW58MHx8fHwxNzY2NDExNzgyfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "pongal"
     },
     {
@@ -71,30 +65,6 @@
       "description": "Creamy Paneer Butter Masala.",
       "imageUrl": "https://i0.wp.com/www.cookingfromheart.com/wp-content/uploads/2016/10/Paneer-Butter-Masala-3.jpg?resize=683%2C1024",
       "imageHint": "paneer masala"
-    },
-    {
-      "id": "menu-naan",
-      "description": "Hot and fluffy Garlic Naan bread.",
-      "imageUrl": "https://images.unsplash.com/photo-1628543788789-3687396652a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuYWFuJTIwYnJlYWR8ZW58MHx8fHwxNzE3NTM2OTgzfDA&ixlib=rb-4.0.3&q=80&w=1080",
-      "imageHint": "naan bread"
-    },
-    {
-      "id": "menu-dal-makhani",
-      "description": "Rich and creamy Dal Makhani.",
-      "imageUrl": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYWwlMjBtYWtoYW5pfGVufDB8fHx8MTcxNzUzNjkxN3ww&ixlib=rb-4.0.3&q=80&w=1080",
-      "imageHint": "dal makhani"
-    },
-    {
-      "id": "menu-chole-bhature",
-      "description": "A plate of chole bhature.",
-      "imageUrl": "https://images.unsplash.com/photo-1569774797008-4d7ec4c09669?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaG9sZSUyMGJoYXR1cmV8ZW58MHx8fHwxNzY2NDYzNTMzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "chole bhature"
-    },
-    {
-      "id": "menu-rajma-chawal",
-      "description": "A bowl of rajma chawal.",
-      "imageUrl": "https://images.unsplash.com/photo-1663792816111-ae062758516e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxyYWptYSUyMGNoYXdhbHxlbnwwfHx8fDE3NjY0NjM1MzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "rajma chawal"
     },
     {
       "id": "menu-chicken-biryani",
@@ -121,52 +91,10 @@
       "imageHint": "pani puri"
     },
     {
-      "id": "menu-bhel-puri",
-      "description": "A bowl of bhel puri.",
-      "imageUrl": "https://images.unsplash.com/photo-1723173938925-09f0171c9a27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxiaGVsJTIwcHVyaXxlbnwwfHx8fDE3NjY0NjM1MzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "bhel puri"
-    },
-    {
-      "id": "menu-vada-pav",
-      "description": "A vada pav.",
-      "imageUrl": "https://images.unsplash.com/photo-1631788012420-a0d6a3cfcdfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx2YWRhJTIwcGF2fGVufDB8fHx8MTc2NjQ2MzUzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "vada pav"
-    },
-    {
       "id": "menu-samosa-chaat",
       "description": "Spicy and tangy Samosa Chaat.",
       "imageUrl": "https://media.istockphoto.com/id/1304803975/photo/samosa-chaat.jpg?s=1024x1024&w=is&k=20&c=6Ipr_C3jB_lSnXJqCb7W0y_K9n_v-aH0ftxR6iT-Wjk=",
       "imageHint": "samosa chaat"
-    },
-    {
-      "id": "menu-kathi-roll",
-      "description": "A kathi roll.",
-      "imageUrl": "https://images.unsplash.com/photo-1697307157652-2b83f11cf9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxrYXRoaSUyMHJvbGx8ZW58MHx8fHwxNzY2NDI1MjYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "kathi roll"
-    },
-    {
-      "id": "menu-french-fries",
-      "description": "A bowl of french fries.",
-      "imageUrl": "https://images.unsplash.com/photo-1607329773021-91a5dbd5986f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZnJlbmNoJTIwZnJpZXN8ZW58MHx8fHwxNzY2MzU4MDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "french fries"
-    },
-    {
-      "id": "menu-sandwich",
-      "description": "A vegetable sandwich.",
-      "imageUrl": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzYW5kd2ljaHxlbnwwfHx8fDE3NjYzODU4MDd8MA&ixlibrb-4.1.0&q=80&w=1080",
-      "imageHint": "sandwich"
-    },
-    {
-      "id": "menu-burger",
-      "description": "A chicken burger.",
-      "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidXJnZXJ8ZW58MHx8fHwxNzY2NDQ4ODQ3fDA&ixlib-rb-4.1.0&q=80&w=1080",
-      "imageHint": "burger"
-    },
-    {
-      "id": "menu-pizza",
-      "description": "A cheese pizza.",
-      "imageUrl": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwaXp6YXxlbnwwfHx8fDE3NjY0NjI1OTJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
-      "imageHint": "pizza"
     },
     {
       "id": "menu-gulab-jamun",
@@ -177,7 +105,7 @@
     {
       "id": "menu-rasgulla",
       "description": "Rasgulla sweets.",
-      "imageUrl": "https://images.unsplash.com/photo-1714799263412-2e0c1f875959?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyYXNndWxsYXxlbnwwfHx8fDE3NjY0MTY5ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1714799263412-2e0c1f875959?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyYXNndWxsYXxlbnwwfHx8fDE3NjY0MTY5ODN8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "rasgulla"
     },
     {
@@ -189,8 +117,218 @@
     {
       "id": "menu-falooda",
       "description": "A glass of falooda.",
-      "imageUrl": "https://images.unsplash.com/photo-1630823183554-21c9702297f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmYWxvb2RhfGVufDB8fHx8MTc2NjQ2MzUzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1630823183554-21c9702297f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmYWxvb2RhfGVufDB8fHx8MTc2NjQ2MzUzM3ww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "falooda"
+    },
+    {
+      "id": "menu-parotta",
+      "description": "Layered flatbread",
+      "imageUrl": "https://images.unsplash.com/photo-1634976997107-8cfa3b4ec10f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYXJvdHRhJTIwYnJlYWR8ZW58MHx8fHwxNzY2NDY2OTk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "parotta bread"
+    },
+    {
+      "id": "menu-kothu-parotta",
+      "description": "Shredded parotta with spices",
+      "imageUrl": "https://picsum.photos/seed/kothuparotta/600/400",
+      "imageHint": "kothu parotta"
+    },
+    {
+      "id": "menu-pori",
+      "description": "Puffed rice snack",
+      "imageUrl": "https://images.unsplash.com/photo-1505216980056-a7b7b1c6e000?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwdWZmZWQlMjByaWNlfGVufDB8fHx8MTc2NjQ2Njk5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "puffed rice"
+    },
+    {
+      "id": "menu-curd-rice",
+      "description": "Rice with curd",
+      "imageUrl": "https://images.unsplash.com/photo-1633383718081-22ac93e3db65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjdXJkJTIwcmljZXxlbnwwfHx8fDE3NjYzODc3MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "curd rice"
+    },
+    {
+      "id": "menu-mint-rice",
+      "description": "Mint flavored rice",
+      "imageUrl": "https://images.unsplash.com/photo-1633383718081-22ac93e3db65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtaW50JTIwcmljZXxlbnwwfHx8fDE3NjY0NjY5OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mint rice"
+    },
+    {
+      "id": "menu-tamarind-rice",
+      "description": "Tamarind flavored rice",
+      "imageUrl": "https://images.unsplash.com/photo-1747518596416-2da5e5218d83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0YW1hcmluZCUyMHJpY2V8ZW58MHx8fHwxNzY2NDY2OTk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tamarind rice"
+    },
+    {
+      "id": "menu-dal-rice",
+      "description": "Rice with dal",
+      "imageUrl": "https://images.unsplash.com/photo-1704916029542-da6fa7bc34e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZGFsJTIwcmljZXxlbnwwfHx8fDE3NjY0NjY5OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dal rice"
+    },
+    {
+      "id": "menu-potato-fry",
+      "description": "Fried potatoes",
+      "imageUrl": "https://images.unsplash.com/photo-1611575855144-fdca2fc32ebd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwb3RhdG8lMjBmcnl8ZW58MHx8fHwxNzY2NDY2OTk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "potato fry"
+    },
+    {
+      "id": "menu-adai",
+      "description": "Lentil dosa",
+      "imageUrl": "https://images.unsplash.com/photo-1630409351241-e90e7f5e434d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhZGFpJTIwZG9zYXxlbnwwfHx8fDE3NjY0NjY5OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "adai dosa"
+    },
+    {
+      "id": "menu-idiyappam",
+      "description": "Steamed rice noodles",
+      "imageUrl": "https://images.unsplash.com/photo-1720499035754-a1ec40e614a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cmljZSUyMG5vb2RsZXN8ZW58MHx8fHwxNzY2NDY2OTk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rice noodles"
+    },
+    {
+      "id": "menu-kottan-choru",
+      "description": "Mixed rice meal",
+      "imageUrl": "https://images.unsplash.com/photo-1613045935265-265ff612e0e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWl4ZWQlMjByaWNlfGVufDB8fHx8MTc2NjQ2Njk5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mixed rice"
+    },
+    {
+      "id": "menu-full-meals",
+      "description": "South Indian meals",
+      "imageUrl": "https://images.unsplash.com/photo-1756741987051-a6a38f28838b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxpbmRpYW4lMjB0aGFsaXxlbnwwfHx8fDE3NjY0NjYwMTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian thali"
+    },
+    {
+      "id": "menu-lemon-rice",
+      "description": "Lemon flavored rice",
+      "imageUrl": "https://images.unsplash.com/photo-1633760040841-1f708ce95c56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsZW1vbiUyMHJpY2V8ZW58MHx8fHwxNzY2NDY2OTk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lemon rice"
+    },
+    {
+      "id": "menu-shawarma",
+      "description": "Meat wrap",
+      "imageUrl": "https://images.unsplash.com/photo-1760888548893-bc2f7e09e972?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzaGF3YXJtYSUyMHdyYXB8ZW58MHx8fHwxNzY2NDEwMTQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "shawarma wrap"
+    },
+    {
+      "id": "menu-chapathi",
+      "description": "Wheat flatbread",
+      "imageUrl": "https://images.unsplash.com/photo-1634976997107-8cfa3b4ec10f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaGFwYXRoaSUyMGJyZWFkfGVufDB8fHx8MTc2NjQ2Njk5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chapathi bread"
+    },
+    {
+      "id": "menu-egg-biryani",
+      "description": "Biryani with eggs",
+      "imageUrl": "https://images.unsplash.com/photo-1606851570850-7c96cf3eba41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxlZ2clMjBiaXJ5YW5pfGVufDB8fHx8MTc2NjQ2Njk5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "egg biryani"
+    },
+    {
+      "id": "menu-prawn-biryani",
+      "description": "Biryani with prawns",
+      "imageUrl": "https://images.unsplash.com/photo-1589307904488-7d60ff29c975?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcmF3biUyMGJpcnlhbml8ZW58MHx8fHwxNzY2NDY2OTk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "prawn biryani"
+    },
+    {
+      "id": "menu-mushroom-fry",
+      "description": "Fried mushrooms",
+      "imageUrl": "https://images.unsplash.com/photo-1687877723436-061cc6e37fe8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtdXNocm9vbSUyMGZyeXxlbnwwfHx8fDE3NjY0NjY5OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mushroom fry"
+    },
+    {
+      "id": "menu-fried-rice",
+      "description": "Vegetable fried rice",
+      "imageUrl": "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmcmllZCUyMHJpY2V8ZW58MHx8fHwxNzY2Mzg3NzIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fried rice"
+    },
+    {
+      "id": "menu-barbecue-chicken",
+      "description": "Grilled chicken",
+      "imageUrl": "https://images.unsplash.com/photo-1623253458786-eac05e77be2b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxiYnElMjBjaGlja2VufGVufDB8fHx8MTc2NjQ2Njk5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bbq chicken"
+    },
+    {
+      "id": "menu-mango-chat",
+      "description": "Raw mango snack",
+      "imageUrl": "https://images.unsplash.com/photo-1631860744320-ef87b26e7a33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYW5nbyUyMHNhbGFkfGVufDB8fHx8MTc2NjQ2Njk5Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mango salad"
+    },
+    {
+      "id": "menu-masala-pori",
+      "description": "Spiced puffed rice",
+      "imageUrl": "https://images.unsplash.com/photo-1505216980056-a7b7b1c6e000?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwdWZmZWQlMjByaWNlfGVufDB8fHx8MTc2NjQ2Njk5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "puffed rice"
+    },
+    {
+      "id": "menu-thattai-chat",
+      "description": "Crispy thattai snack",
+      "imageUrl": "https://images.unsplash.com/photo-1766085683622-6bb826beaa67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjcmlzcHklMjBzbmFja3xlbnwwfHx8fDE3NjY0NjY5OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "crispy snack"
+    },
+    {
+      "id": "menu-samosa",
+      "description": "Fried potato snack",
+      "imageUrl": "https://images.unsplash.com/photo-1697155836252-d7f969108b5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzYW1vc2ElMjBzbmFja3xlbnwwfHx8fDE3NjY0NjY5OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "samosa snack"
+    },
+    {
+      "id": "menu-bajji",
+      "description": "Fried gram flour snack",
+      "imageUrl": "https://picsum.photos/seed/bajji/600/400",
+      "imageHint": "bajji snack"
+    },
+    {
+      "id": "menu-bonda",
+      "description": "Fried potato balls",
+      "imageUrl": "https://images.unsplash.com/photo-1625242661157-e9e5708ffe5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxib25kYSUyMHNuYWNrfGVufDB8fHx8MTc2NjQ2Njk5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bonda snack"
+    },
+    {
+      "id": "menu-soup",
+      "description": "Vegetable soup",
+      "imageUrl": "https://images.unsplash.com/photo-1511099968099-8da3c3fa3950?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx2ZWdldGFibGUlMjBzb3VwfGVufDB8fHx8MTc2NjM3MjcwMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vegetable soup"
+    },
+    {
+      "id": "menu-poli",
+      "description": "Sweet flatbread",
+      "imageUrl": "https://images.unsplash.com/photo-1629273519276-b633fce56989?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzd2VldCUyMGJyZWFkfGVufDB8fHx8MTc2NjQ2Njk5Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sweet bread"
+    },
+    {
+      "id": "menu-sundal",
+      "description": "Boiled legume snack",
+      "imageUrl": "https://images.unsplash.com/photo-1697862446263-2ae694814ccc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxsZWd1bWUlMjBzYWxhZHxlbnwwfHx8fDE3NjY0NjY5OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "legume salad"
+    },
+    {
+      "id": "menu-kachayam",
+      "description": "Fried sweet snack",
+      "imageUrl": "https://images.unsplash.com/photo-1556157408-ed905925a4cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzd2VldCUyMHNuYWNrfGVufDB8fHx8MTc2NjQ2Njk5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sweet snack"
+    },
+    {
+      "id": "menu-black-forest-cake",
+      "description": "Chocolate cream cake",
+      "imageUrl": "https://images.unsplash.com/photo-1517427294546-5aa121f68e8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaG9jb2xhdGUlMjBjYWtlfGVufDB8fHx8MTc2NjQ1OTExNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chocolate cake"
+    },
+    {
+      "id": "menu-lemon-juice",
+      "description": "Fresh lemon juice",
+      "imageUrl": "https://images.unsplash.com/photo-1653542772393-71ffa417b1c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsZW1vbiUyMGp1aWNlfGVufDB8fHx8MTc2NjQ2Njk5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lemon juice"
+    },
+    {
+      "id": "menu-laddu",
+      "description": "Sweet laddu",
+      "imageUrl": "https://images.unsplash.com/photo-1758910536889-43ce7b3199fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsYWRkdSUyMHN3ZWV0fGVufDB8fHx8MTc2NjQ2Njk5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "laddu sweet"
+    },
+    {
+      "id": "menu-palkova",
+      "description": "Milk sweet",
+      "imageUrl": "https://images.unsplash.com/photo-1664744471471-5a28a4ae0cdb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtaWxrJTIwc3dlZXR8ZW58MHx8fHwxNzY2NDY2OTk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "milk sweet"
+    },
+    {
+      "id": "menu-honey-cake",
+      "description": "Honey flavored cake",
+      "imageUrl": "https://images.unsplash.com/photo-1731045102967-6e97132a7245?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxob25leSUyMGNha2V8ZW58MHx8fHwxNzY2NDY2OTk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "honey cake"
     }
   ]
 }
