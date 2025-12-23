@@ -39,7 +39,7 @@
     {
       "id": "menu-dosa",
       "description": "A golden crispy Masala Dosa.",
-      "imageUrl": "https://images.unsplash.com/photo-1643221124559-62b8a78377da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXNhbGElMjBkb3NhfGVufDB8fHx8MTcxNzUzNjM0Nnww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://palatesdesire.com/wp-content/uploads/2022/09/Mysore-masala-dosa-recipe@palates-desire.jpg",
       "imageHint": "masala dosa"
     },
     {
@@ -69,7 +69,7 @@
     {
       "id": "menu-paneer-butter-masala",
       "description": "Creamy Paneer Butter Masala.",
-      "imageUrl": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYW5lZXIlMjBidXR0ZXIlMjBtYXNhbGF8ZW58MHx8fHwxNzE3NTM2ODgxfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://i0.wp.com/www.cookingfromheart.com/wp-content/uploads/2016/10/Paneer-Butter-Masala-3.jpg?resize=683%2C1024",
       "imageHint": "paneer masala"
     },
     {
@@ -99,7 +99,7 @@
     {
       "id": "menu-chicken-biryani",
       "description": "Aromatic Chicken Dum Biryani.",
-      "imageUrl": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlja2VuJTIwYmlyeWFuaXxlbnwwfHx8fDE3MTc1MzY2ODV8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Chicken-Biryani-Recipe.jpg",
       "imageHint": "chicken biryani"
     },
     {
@@ -117,7 +117,7 @@
     {
       "id": "menu-pani-puri",
       "description": "A plate of delicious Pani Puri.",
-      "imageUrl": "https://images.unsplash.com/photo-1631782290008-59c4a8d38b64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYW5pJTIwcHVyaXxlbnwwfHx8fDE3MTc1MzcwMTN8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://www.awesomecuisine.com/wp-content/uploads/2007/11/Pani-Puri.jpg",
       "imageHint": "pani puri"
     },
     {
@@ -153,7 +153,7 @@
     {
       "id": "menu-sandwich",
       "description": "A vegetable sandwich.",
-      "imageUrl": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzYW5kd2ljaHxlbnwwfHx8fDE3NjYzODU4MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzYW5kd2ljaHxlbnwwfHx8fDE3NjYzODU4MDd8MA&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "sandwich"
     },
     {
@@ -171,25 +171,25 @@
     {
       "id": "menu-gulab-jamun",
       "description": "Warm Gulab Jamuns in syrup.",
-      "imageUrl": "https://images.unsplash.com/photo-1680993032090-1ef7ea9b51e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxndWxhYiUyMGphbXVufGVufDB8fHx8MTc2NjM0Mzg0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1680993032090-1ef7ea9b51e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxndWxhYiUyMGphbXVufGVufDB8fHx8MTc2NjM0Mzg0Nnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "gulab jamun"
     },
     {
       "id": "menu-rasgulla",
       "description": "Rasgulla sweets.",
-      "imageUrl": "https://images.unsplash.com/photo-1714799263412-2e0c1f875959?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyYXNndWxsYXxlbnwwfHx8fDE3NjY0MTY5ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1714799263412-2e0c1f875959?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyYXNndWxsYXxlbnwwfHx8fDE3NjY0MTY5ODN8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "rasgulla"
     },
     {
       "id": "menu-ice-cream",
       "description": "A scoop of ice cream.",
-      "imageUrl": "https://images.unsplash.com/photo-1576506295286-5cda18df43e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aWNlJTIwY3JlYW18ZW58MHx8fHwxNzY2Mzc3Mjk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1576506295286-5cda18df43e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aWNlJTIwY3JlYW18ZW58MHx8fHwxNzY2Mzc3Mjk2fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "ice cream"
     },
     {
       "id": "menu-falooda",
       "description": "A glass of falooda.",
-      "imageUrl": "https://images.unsplash.com/photo-1630823183554-21c9702297f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmYWxvb2RhfGVufDB8fHx8MTc2NjQ2MzUzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1630823183554-21c9702297f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmYWxvb2RhfGVufDB8fHx8MTc2NjQ2MzUzM3ww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "falooda"
     }
   ]
