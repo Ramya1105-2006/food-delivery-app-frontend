@@ -28,15 +28,15 @@ const mockRestaurants: Restaurant[] = [
       {
         title: "Breakfast",
         items: [
-          { id: "sih1", name: "Masala Dosa", description: "Crispy crepe with spiced potato filling.", price: 120.00, image: getImage('menu-dosa') },
-          { id: "sih2", name: "Idli Sambar", description: "Steamed rice cakes with lentil soup.", price: 80.00, image: getImage('menu-idli') },
-          { id: "sih3", name: "Medu Vada", description: "Crispy savory doughnuts.", price: 90.00, image: getImage('menu-vada') },
+          { id: "sih1", name: "Masala Dosa", description: "Crispy crepe with spiced potato filling.", price: 120.00, image: getImage('menu-dosa'), type: 'veg' },
+          { id: "sih2", name: "Idli Sambar", description: "Steamed rice cakes with lentil soup.", price: 80.00, image: getImage('menu-idli'), type: 'veg' },
+          { id: "sih3", name: "Medu Vada", description: "Crispy savory doughnuts.", price: 90.00, image: getImage('menu-vada'), type: 'veg' },
         ],
       },
       {
         title: "Main Course",
         items: [
-          { id: "sih4", name: "Lemon Rice", description: "Flavorful rice with lemon and peanuts.", price: 150.00, image: getImage('menu-lemon-rice') },
+          { id: "sih4", name: "Lemon Rice", description: "Flavorful rice with lemon and peanuts.", price: 150.00, image: getImage('menu-lemon-rice'), type: 'veg' },
         ],
       },
     ],
@@ -52,15 +52,15 @@ const mockRestaurants: Restaurant[] = [
       {
         title: "Biryanis",
         items: [
-          { id: "bp1", name: "Chicken Dum Biryani", description: "Aromatic rice and chicken cooked in a sealed pot.", price: 350.00, image: getImage('menu-chicken-biryani') },
-          { id: "bp2", name: "Mutton Biryani", description: "Succulent mutton pieces in fragrant rice.", price: 450.00, image: getImage('menu-mutton-biryani') },
-          { id: "bp3", name: "Vegetable Biryani", description: "A medley of vegetables and basmati rice.", price: 280.00, image: getImage('menu-veg-biryani') },
+          { id: "bp1", name: "Chicken Dum Biryani", description: "Aromatic rice and chicken cooked in a sealed pot.", price: 350.00, image: getImage('menu-chicken-biryani'), type: 'non-veg' },
+          { id: "bp2", name: "Mutton Biryani", description: "Succulent mutton pieces in fragrant rice.", price: 450.00, image: getImage('menu-mutton-biryani'), type: 'non-veg' },
+          { id: "bp3", name: "Vegetable Biryani", description: "A medley of vegetables and basmati rice.", price: 280.00, image: getImage('menu-veg-biryani'), type: 'veg' },
         ],
       },
       {
         title: "Kebabs",
         items: [
-          { id: "bp4", name: "Chicken Seekh Kebab", description: "Minced chicken skewers.", price: 250.00, image: getImage('menu-chicken-kebab') },
+          { id: "bp4", name: "Chicken Seekh Kebab", description: "Minced chicken skewers.", price: 250.00, image: getImage('menu-chicken-kebab'), type: 'non-veg' },
         ],
       },
     ],
@@ -76,15 +76,15 @@ const mockRestaurants: Restaurant[] = [
         {
             title: "Curries",
             items: [
-                { id: "pd1", name: "Paneer Butter Masala", description: "Cottage cheese in a creamy tomato gravy.", price: 320.00, image: getImage('menu-paneer-butter-masala') },
-                { id: "pd2", name: "Dal Makhani", description: "Black lentils simmered in a rich gravy.", price: 280.00, image: getImage('menu-dal-makhani') },
-                { id: "pd3", name: "Butter Chicken", description: "Tender chicken in a velvety tomato sauce.", price: 380.00, image: getImage('menu-butter-chicken') },
+                { id: "pd1", name: "Paneer Butter Masala", description: "Cottage cheese in a creamy tomato gravy.", price: 320.00, image: getImage('menu-paneer-butter-masala'), type: 'veg' },
+                { id: "pd2", name: "Dal Makhani", description: "Black lentils simmered in a rich gravy.", price: 280.00, image: getImage('menu-dal-makhani'), type: 'veg' },
+                { id: "pd3", name: "Butter Chicken", description: "Tender chicken in a velvety tomato sauce.", price: 380.00, image: getImage('menu-butter-chicken'), type: 'non-veg' },
             ]
         },
         {
           title: "Breads",
           items: [
-              { id: "pd4", name: "Garlic Naan", description: "Soft leavened bread with garlic.", price: 60.00, image: getImage('menu-naan') },
+              { id: "pd4", name: "Garlic Naan", description: "Soft leavened bread with garlic.", price: 60.00, image: getImage('menu-naan'), type: 'veg' },
           ]
       }
     ]
@@ -100,77 +100,59 @@ const mockRestaurants: Restaurant[] = [
         {
             title: "Chaat",
             items: [
-                { id: "cc1", name: "Pani Puri", description: "Hollow crisps filled with tangy water.", price: 70.00, image: getImage('menu-pani-puri') },
-                { id: "cc2", name: "Samosa Chaat", description: "Crushed samosas topped with yogurt and chutneys.", price: 90.00, image: getImage('menu-samosa-chaat') },
+                { id: "cc1", name: "Pani Puri", description: "Hollow crisps filled with tangy water.", price: 70.00, image: getImage('menu-pani-puri'), type: 'veg' },
+                { id: "cc2", name: "Samosa Chaat", description: "Crushed samosas topped with yogurt and chutneys.", price: 90.00, image: getImage('menu-samosa-chaat'), type: 'veg' },
             ]
         }
     ]
   },
   {
-    id: "curry-house",
-    name: "Curry House",
-    cuisine: "Indian",
+    id: "wok-express",
+    name: "Wok Express",
+    cuisine: "Chinese",
+    rating: 4.5,
+    deliveryTime: "25-35 min",
+    coverImage: getImage('restaurant-wok-express'),
+    menu: [
+      {
+        title: "Noodles & Rice",
+        items: [
+          { id: "we1", name: "Hakka Noodles", description: "Stir-fried noodles with vegetables.", price: 220.00, image: getImage('menu-hakka-noodles'), type: 'veg' },
+          { id: "we2", name: "Schezwan Fried Rice", description: "Spicy fried rice with schezwan sauce.", price: 240.00, image: getImage('menu-schezwan-rice'), type: 'veg' },
+        ],
+      },
+      {
+        title: "Starters",
+        items: [
+          { id: "we3", name: "Gobi Manchurian", description: "Crispy cauliflower in a tangy sauce.", price: 200.00, image: getImage('menu-gobi-manchurian'), type: 'veg' },
+          { id: "we4", name: "Chilli Chicken", description: "Spicy and tangy chicken appetizer.", price: 280.00, image: getImage('menu-chilli-chicken'), type: 'non-veg' },
+        ],
+      },
+    ],
+  },
+  {
+    id: "sweet-delights",
+    name: "Sweet Delights",
+    cuisine: "Desserts",
     rating: 4.9,
-    deliveryTime: "35-45 min",
-    coverImage: getImage('restaurant-curry-house'),
+    deliveryTime: "20-30 min",
+    coverImage: getImage('restaurant-sweet-delights'),
     menu: [
         {
-            title: "Curries",
+            title: "Indian Sweets",
             items: [
-                { id: "ch1", name: "Chicken Tikka Masala", description: "Creamy tomato-based curry.", price: 15.99, image: getImage('menu-chicken-curry') },
-                { id: "ch2", name: "Paneer Butter Masala", description: "Vegetarian delight.", price: 14.99, image: getImage('menu-chicken-curry') },
+                { id: "sd1", name: "Gulab Jamun", description: "Soft, spongy balls soaked in sugar syrup.", price: 100.00, image: getImage('menu-gulab-jamun'), type: 'veg' },
+                { id: "sd2", name: "Rasmalai", description: "Creamy and spongy cottage cheese dessert.", price: 150.00, image: getImage('menu-rasmalai'), type: 'veg' },
+            ]
+        },
+        {
+            title: "Cakes & Pastries",
+            items: [
+                { id: "sd3", name: "Chocolate Truffle Cake (Slice)", description: "Rich and decadent chocolate cake.", price: 180.00, image: getImage('menu-choco-truffle'), type: 'veg' },
             ]
         }
     ]
   },
-  {
-    id: "pho-king",
-    name: "Pho King",
-    cuisine: "Vietnamese",
-    rating: 4.7,
-    deliveryTime: "30-40 min",
-    coverImage: getImage('restaurant-pho-king'),
-    menu: [
-        {
-            title: "Noodle Soups",
-            items: [
-                { id: "pk1", name: "Pho Dac Biet", description: "Combination beef noodle soup.", price: 13.99, image: getImage('menu-pho-soup') },
-            ]
-        }
-    ]
-  },
-  {
-    id: "pasta-palace",
-    name: "Pasta Palace",
-    cuisine: "Italian",
-    rating: 4.6,
-    deliveryTime: "30-40 min",
-    coverImage: getImage('restaurant-pasta-palace'),
-    menu: [
-        {
-            title: "Pasta",
-            items: [
-                { id: "pp1", name: "Spaghetti Carbonara", description: "Creamy pasta with pancetta.", price: 16.99, image: getImage('menu-spaghetti-carbonara') },
-            ]
-        }
-    ]
-  },
-  {
-    id: "bbq-shack",
-    name: "BBQ Shack",
-    cuisine: "American",
-    rating: 4.8,
-    deliveryTime: "40-50 min",
-    coverImage: getImage('restaurant-bbq-shack'),
-    menu: [
-        {
-            title: "BBQ",
-            items: [
-                { id: "bs1", name: "BBQ Ribs", description: "Full rack of fall-off-the-bone ribs.", price: 24.99, image: getImage('menu-bbq-ribs') },
-            ]
-        }
-    ]
-  }
 ];
 
 // Simulate API call

@@ -21,6 +21,7 @@ export interface MenuItem {
   description: string;
   price: number;
   image: ImagePlaceholder;
+  type: 'veg' | 'non-veg';
 }
 
 export interface CartItem extends MenuItem {

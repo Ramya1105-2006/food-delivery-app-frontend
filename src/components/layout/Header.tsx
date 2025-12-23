@@ -8,10 +8,10 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur-sm">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
-        <Link href="/" className="flex items-center gap-2" aria-label="CuisineConnect Home">
+        <Link href="/" className="flex items-center gap-2" aria-label="Indian Food Hub Home">
           <Logo className="h-8 w-8 text-primary" />
           <span className="hidden text-xl font-bold font-headline sm:inline-block">
-            CuisineConnect
+            Indian Food Hub
           </span>
         </Link>
         <div className="flex items-center gap-4">

@@ -7,6 +7,7 @@ import { useToast } from "@/hooks/use-toast";
 import { useCart } from "@/hooks/use-cart";
 import type { MenuItem } from "@/lib/types";
 import { PlusCircle } from "lucide-react";
+import { VegNonVegIcon } from "./icons/VegNonVegIcon";
 
 interface MenuItemCardProps {
   item: MenuItem;
@@ -27,7 +28,10 @@ export function MenuItemCard({ item }: MenuItemCardProps) {
   return (
     <div className="flex items-start gap-4 rounded-lg p-4 transition-colors hover:bg-secondary/50">
       <div className="flex-1">
-        <h3 className="font-bold font-headline">{item.name}</h3>
+        <div className="flex items-center gap-2">
+            <VegNonVegIcon type={item.type} className="h-5 w-5" />
+            <h3 className="font-bold font-headline">{item.name}</h3>
+        </div>
         <p className="mt-1 text-sm text-muted-foreground">{item.description}</p>
         <p className="mt-2 font-semibold text-primary">
           ₹{item.price.toFixed(2)}

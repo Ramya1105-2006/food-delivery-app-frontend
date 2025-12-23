@@ -41,7 +41,7 @@ export default function Home() {
           Find Your Next Craving
         </h1>
         <p className="mt-4 text-lg text-foreground/80 max-w-2xl mx-auto animate-fade-in-up">
-          From local favorites to exotic cuisines, CuisineConnect brings the
+          From local favorites to exotic cuisines, Indian Food Hub brings the
           best food right to your doorstep.
         </p>
         <div className="mt-8 max-w-lg mx-auto relative">
@@ -56,7 +56,7 @@ export default function Home() {
 
       <section className="py-12">
         <h2 className="text-3xl font-bold font-headline mb-8">
-          Featured Restaurants
+          Popular Near You
         </h2>
         <Suspense fallback={<RestaurantGridSkeleton />}>
             <RestaurantGrid />

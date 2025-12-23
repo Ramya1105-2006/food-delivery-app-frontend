@@ -9,10 +9,10 @@ export function Footer() {
         <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
           <div className="flex items-center gap-2">
             <Logo className="h-6 w-6 text-primary" />
-            <span className="font-bold">CuisineConnect</span>
+            <span className="font-bold">Indian Food Hub</span>
           </div>
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} CuisineConnect. All rights reserved.
+            © {new Date().getFullYear()} Indian Food Hub. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             <Link href="#" aria-label="Twitter">

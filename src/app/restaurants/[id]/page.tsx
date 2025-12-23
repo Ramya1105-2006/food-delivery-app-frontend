@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${restaurant.name} - CuisineConnect`,
+    title: `${restaurant.name} - Indian Food Hub`,
     description: `Order delicious ${restaurant.cuisine.toLowerCase()} food from ${restaurant.name}.`,
   }
 }
@@ -67,10 +67,10 @@ export default async function RestaurantPage({ params }: { params: { id: string 
                 <h2 className="text-3xl font-bold font-headline mb-6">{category.title}</h2>
                 <div className="flex flex-col">
                 {category.items.map((item, itemIndex) => (
-                    <>
-                    <MenuItemCard item={item} />
-                    {itemIndex < category.items.length - 1 && <Separator className="my-2" />}
-                    </>
+                    <React.Fragment key={item.id}>
+                      <MenuItemCard item={item} />
+                      {itemIndex < category.items.length - 1 && <Separator className="my-2" />}
+                    </React.Fragment>
                 ))}
                 </div>
             </section>

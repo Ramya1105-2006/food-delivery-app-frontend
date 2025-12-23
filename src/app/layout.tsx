@@ -8,7 +8,7 @@ import { Footer } from '@/components/layout/Footer';
 import { AuthProvider } from '@/context/AuthProvider';
 
 export const metadata: Metadata = {
-  title: 'CuisineConnect',
+  title: 'Indian Food Hub',
   description: 'Your next meal, delivered.',
 };
 
