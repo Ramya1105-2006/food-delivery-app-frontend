@@ -29,7 +29,7 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
       {
-        protocol: 'https',
+        protocol: 'https' ,
         hostname: 'media.istockphoto.com',
         port: '',
         pathname: '/**',
@@ -37,6 +37,12 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'img.freepik.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'sukhis.com',
         port: '',
         pathname: '/**',
       }
