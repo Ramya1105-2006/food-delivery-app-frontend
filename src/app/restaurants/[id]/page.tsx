@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${restaurant.name} - Indian Food Hub`,
+    title: `${restaurant.name} - CuisineConnect`,
     description: `Order delicious ${restaurant.cuisine.toLowerCase()} food from ${restaurant.name}.`,
   }
 }
