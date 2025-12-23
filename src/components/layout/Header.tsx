@@ -15,10 +15,10 @@ export function Header() {
         </Link>
         <div className="flex items-center gap-4">
           <Button variant="ghost" asChild>
-            <Link href="#">Log In</Link>
+            <Link href="/login">Log In</Link>
           </Button>
           <Button className="bg-primary hover:bg-primary/90" asChild>
-            <Link href="#">Sign Up</Link>
+            <Link href="/signup">Sign Up</Link>
           </Button>
           <CartIcon />
         </div>
