@@ -75,19 +75,19 @@
     {
       "id": "menu-chicken-biryani",
       "description": "Aromatic Chicken Dum Biryani.",
-      "imageUrl": "https://sifu.unileversolutions.com/image/en-LK/recipe-topvisual/2/1260-709/authentic-chicken-biryani-50434132.jpg",
+      "imageUrl": "https://tse4.mm.bing.net/th/id/OIP.r6T2zRnyrrP8LdtOEaGVowHaGl?rs=1&pid=ImgDetMain&o=7&rm=3",
       "imageHint": "chicken biryani"
     },
     {
       "id": "menu-mutton-biryani",
       "description": "Rich and flavorful Mutton Biryani.",
-      "imageUrl": "https://media.istockphoto.com/id/1317140051/photo/mutton-biryani-made-with-basmati-rice-and-spices-and-served-with-yogurt-and-chutney.jpg?s=1024x1024&w=is&k=20&c=oF7MvJQS_1qJ03jM0jS-ZpLq2b_LklHq_07D3cTU-So=",
+      "imageUrl": "https://bonmasala.com/wp-content/uploads/2022/10/mutton-biriyani-recipe.jpeg",
       "imageHint": "mutton biryani"
     },
     {
       "id": "menu-veg-biryani",
       "description": "Colorful and aromatic Vegetable Biryani.",
-      "imageUrl": "https://images.unsplash.com/photo-1589301760014-d929f39791e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2ZWdldGFibGUlMjBiaXJ5YW5pfGVufDB8fHx8MTcxNzUzNjc4OHww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://www.whiskaffair.com/wp-content/uploads/2020/08/Veg-Biryani-2-3.jpg",
       "imageHint": "vegetable biryani"
     },
     {
@@ -225,13 +225,13 @@
     {
       "id": "menu-egg-biryani",
       "description": "Biryani with eggs",
-      "imageUrl": "https://images.unsplash.com/photo-1606851570850-7c96cf3eba41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxlZ2clMjBiaXJ5YW5pfGVufDB8fHx8MTc2NjQ2Njk5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://tse2.mm.bing.net/th/id/OIP.4gNX6UVizlNxcktWmA6i5gHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
       "imageHint": "egg biryani"
     },
     {
       "id": "menu-prawn-biryani",
       "description": "Biryani with prawns",
-      "imageUrl": "https://images.unsplash.com/photo-1589307904488-7d60ff29c975?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcmF3biUyMGJpcnlhbml8ZW58MHx8fHwxNzY2NDY2OTk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://hungryforever.net/wp-content/uploads/2017/11/hyderabadi-prawn-biryani-recipe.jpg",
       "imageHint": "prawn biryani"
     },
     {
@@ -243,7 +243,7 @@
     {
       "id": "menu-fried-rice",
       "description": "Vegetable fried rice",
-      "imageUrl": "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmcmllZCUyMHJpY2V8ZW58MHx8fHwxNzY2Mzg3NzIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmcmllZCUyMHJpY2V8ZW58MHx8fHwxNzY2Mzg3NzIxfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "fried rice"
     },
     {
@@ -267,7 +267,7 @@
     {
       "id": "menu-thattai-chat",
       "description": "Crispy thattai snack",
-      "imageUrl": "https://images.unsplash.com/photo-1766085683622-6bb826beaa67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjcmlzcHklMjBzbmFja3xlbnwwfHx8fDE3NjY0NjY5OTV8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1766085683622-6bb826beaa67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjcmlzcHklMjBzbmFja3xlbnwwfHx8fDE3NjY0NjY5OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "crispy snack"
     },
     {

@@ -250,6 +250,30 @@ const nextConfig: NextConfig = {
         hostname: 'tse4.mm.bing.net',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'bonmasala.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'tse2.mm.bing.net',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'hungryforever.net',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.whiskaffair.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
