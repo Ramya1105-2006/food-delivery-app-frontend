@@ -304,6 +304,30 @@ const nextConfig: NextConfig = {
         hostname: '3.bp.blogspot.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.masalakorb.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'thestayathomechef.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn3.foodviva.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.kannammacooks.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
