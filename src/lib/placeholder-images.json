@@ -1,34 +1,136 @@
 {
   "placeholderImages": [
     {
-      "id": "restaurant-sushi-place",
-      "description": "A modern sushi restaurant interior.",
-      "imageUrl": "https://images.unsplash.com/photo-1681270496598-13c5365730c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzdXNoaSUyMHJlc3RhdXJhbnR8ZW58MHx8fHwxNzY2MzE4NzkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "sushi restaurant"
+      "id": "restaurant-south-indian",
+      "description": "A traditional South Indian restaurant setting.",
+      "imageUrl": "https://images.unsplash.com/photo-1626785775736-a634b071a1a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzb3V0aCUyMGluZGlhbiUyMGZvb2R8ZW58MHx8fHwxNzE3NTM2MTE1fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "indian restaurant"
     },
     {
-      "id": "restaurant-pizza-den",
-      "description": "A cozy pizza place with a brick oven.",
-      "imageUrl": "https://images.unsplash.com/photo-1489564239502-7a532064e1c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwaXp6YSUyMHJlc3RhdXJhbnR8ZW58MHx8fHwxNzY2NDIyNjEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "pizza restaurant"
+      "id": "restaurant-biryani-palace",
+      "description": "An elegant restaurant specializing in Biryani.",
+      "imageUrl": "https://images.unsplash.com/photo-1587574293340-e0011c4e8ecf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxpbmRpYW4lMjByZXN0YXVyYW50fGVufDB8fHx8MTc2NjQxMjk0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mughlai restaurant"
     },
     {
-      "id": "restaurant-taco-town",
-      "description": "A vibrant and colorful taco restaurant.",
-      "imageUrl": "https://images.unsplash.com/photo-1594482689190-50958612d742?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0YWNvJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjY0MjI2MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "taco restaurant"
+      "id": "restaurant-punjabi-dhaba",
+      "description": "A rustic and lively Punjabi dhaba.",
+      "imageUrl": "https://images.unsplash.com/photo-1606495145318-34b54e3f491c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwdW5qYWJpJTIwZGhhYmF8ZW58MHx8fHwxNzE3NTM2MTk2fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "punjabi dhaba"
     },
     {
-      "id": "restaurant-burger-hub",
-      "description": "A classic American diner-style burger joint.",
-      "imageUrl": "https://images.unsplash.com/photo-1695606392868-b9ed053e1c0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxidXJnZXIlMjBqb2ludHxlbnwwfHx8fDE3NjY0MjI2MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "burger joint"
+      "id": "restaurant-chaat-corner",
+      "description": "A bustling Indian street food stall.",
+      "imageUrl": "https://images.unsplash.com/photo-1585799293674-399853c09b1f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGFhdCUyMHN0YWxsfGVufDB8fHx8MTcxNzUzNjI4MHww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "street food"
+    },
+    {
+      "id": "menu-dosa",
+      "description": "A golden crispy Masala Dosa.",
+      "imageUrl": "https://images.unsplash.com/photo-1643221124559-62b8a78377da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXNhbGElMjBkb3NhfGVufDB8fHx8MTcxNzUzNjM0Nnww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "masala dosa"
+    },
+    {
+      "id": "menu-idli",
+      "description": "Soft and fluffy Idlis with Sambar and chutney.",
+      "imageUrl": "https://images.unsplash.com/photo-1602264569363-a2624f46dc33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpZGxpJTIwc2FtYmFyfGVufDB8fHx8MTcxNzUzNjM4MHww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "idli sambar"
+    },
+    {
+      "id": "menu-vada",
+      "description": "Crispy Medu Vada with coconut chutney.",
+      "imageUrl": "https://media.istockphoto.com/id/1269382218/photo/south-indian-food-vada-sambar.jpg?s=1024x1024&w=is&k=20&c=6k5j_H_x41nnh2hN63gExi033D3yGk6x2uM2ec_TCRc=",
+      "imageHint": "medu vada"
+    },
+    {
+      "id": "menu-lemon-rice",
+      "description": "Tangy and flavorful lemon rice.",
+      "imageUrl": "https://media.istockphoto.com/id/1321748283/photo/lemon-rice-is-a-south-indian-recipe.jpg?s=1024x1024&w=is&k=20&c=a48-THP3CFJ3TCSfP3ZZu8_L2K-s6Yj_raddpIxe_Bw=",
+      "imageHint": "lemon rice"
+    },
+    {
+      "id": "menu-chicken-biryani",
+      "description": "Aromatic Chicken Dum Biryani.",
+      "imageUrl": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlja2VuJTIwYmlyeWFuaXxlbnwwfHx8fDE3MTc1MzY2ODV8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "chicken biryani"
+    },
+    {
+      "id": "menu-mutton-biryani",
+      "description": "Rich and flavorful Mutton Biryani.",
+      "imageUrl": "https://media.istockphoto.com/id/1317140051/photo/mutton-biryani-made-with-basmati-rice-and-spices-and-served-with-yogurt-and-chutney.jpg?s=1024x1024&w=is&k=20&c=oF7MvJQS_1qJ03jM0jS-ZpLq2b_LklHq_07D3cTU-So=",
+      "imageHint": "mutton biryani"
+    },
+    {
+      "id": "menu-veg-biryani",
+      "description": "Colorful and aromatic Vegetable Biryani.",
+      "imageUrl": "https://images.unsplash.com/photo-1589301760014-d929f39791e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2ZWdldGFibGUlMjBiaXJ5YW5pfGVufDB8fHx8MTcxNzUzNjc4OHww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "vegetable biryani"
+    },
+    {
+      "id": "menu-chicken-kebab",
+      "description": "Grilled Chicken Seekh Kebabs.",
+      "imageUrl": "https://images.unsplash.com/photo-1629436214303-9118c7ac9414?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlja2VuJTIwa2ViYWJ8ZW58MHx8fHwxNzE3NTM2ODIzfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "chicken kebab"
+    },
+    {
+      "id": "menu-paneer-butter-masala",
+      "description": "Creamy Paneer Butter Masala.",
+      "imageUrl": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYW5lZXIlMjBidXR0ZXIlMjBtYXNhbGF8ZW58MHx8fHwxNzE3NTM2ODgxfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "paneer masala"
+    },
+    {
+      "id": "menu-dal-makhani",
+      "description": "Rich and creamy Dal Makhani.",
+      "imageUrl": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYWwlMjBtYWtoYW5pfGVufDB8fHx8MTcxNzUzNjkxN3ww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "dal makhani"
+    },
+    {
+      "id": "menu-butter-chicken",
+      "description": "Velvety and delicious Butter Chicken.",
+      "imageUrl": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidXR0ZXIlMjBjaGlja2VufGVufDB8fHx8MTcxNzUzNjk1MXww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "butter chicken"
+    },
+    {
+      "id": "menu-naan",
+      "description": "Hot and fluffy Garlic Naan bread.",
+      "imageUrl": "https://images.unsplash.com/photo-1628543788789-3687396652a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuYWFuJTIwYnJlYWR8ZW58MHx8fHwxNzE3NTM2OTgzfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "naan bread"
+    },
+    {
+      "id": "menu-pani-puri",
+      "description": "A plate of delicious Pani Puri.",
+      "imageUrl": "https://images.unsplash.com/photo-1631782290008-59c4a8d38b64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYW5pJTIwcHVyaXxlbnwwfHx8fDE3MTc1MzcwMTN8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "pani puri"
+    },
+    {
+      "id": "menu-samosa-chaat",
+      "description": "Spicy and tangy Samosa Chaat.",
+      "imageUrl": "https://media.istockphoto.com/id/1304803975/photo/samosa-chaat.jpg?s=1024x1024&w=is&k=20&c=6Ipr_C3jB_lSnXJqCb7W0y_K9n_v-aH0ftxR6iT-Wjk=",
+      "imageHint": "samosa chaat"
+    },
+    {
+      "id": "restaurant-cover-sushi",
+      "description": "A wide shot of a sushi bar.",
+      "imageUrl": "https://images.unsplash.com/photo-1651977560784-488c2b872df1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzdXNoaSUyMGJhcnxlbnwwfHx8fDE3NjYzODM2ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sushi bar"
+    },
+    {
+      "id": "restaurant-cover-pizza",
+      "description": "A chef preparing pizza dough.",
+      "imageUrl": "https://images.unsplash.com/photo-1710575326152-4a397c13716d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwaXp6YSUyMGNoZWZ8ZW58MHx8fHwxNzY2NDIyNjEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pizza chef"
     },
     {
       "id": "restaurant-curry-house",
       "description": "An elegant Indian restaurant with warm lighting.",
       "imageUrl": "https://images.unsplash.com/photo-1587574293340-e0011c4e8ecf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxpbmRpYW4lMjByZXN0YXVyYW50fGVufDB8fHx8MTc2NjQxMjk0MXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "indian restaurant"
+    },
+    {
+      "id": "menu-chicken-curry",
+      "description": "A bowl of rich chicken tikka masala.",
+      "imageUrl": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGlja2VuJTIwY3Vycnl8ZW58MHx8fHwxNzY2NDA5MzAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chicken curry"
     },
     {
       "id": "restaurant-pho-king",
@@ -49,36 +151,6 @@
       "imageHint": "bbq restaurant"
     },
     {
-      "id": "menu-sushi-roll",
-      "description": "A platter of assorted sushi rolls.",
-      "imageUrl": "https://images.unsplash.com/photo-1759646828324-c215a83828ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3VzaGklMjBwbGF0dGVyfGVufDB8fHx8MTc2NjM4NjIzMXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "sushi platter"
-    },
-    {
-      "id": "menu-margherita-pizza",
-      "description": "A classic margherita pizza with fresh basil.",
-      "imageUrl": "https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtYXJnaGVyaXRhJTIwcGl6emF8ZW58MHx8fHwxNzY2MzQwNjAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "margherita pizza"
-    },
-    {
-      "id": "menu-street-tacos",
-      "description": "A plate of authentic street tacos.",
-      "imageUrl": "https://images.unsplash.com/photo-1621334953333-ba703fcb434d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzdHJlZXQlMjB0YWNvc3xlbnwwfHx8fDE3NjYzNzg3ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "street tacos"
-    },
-    {
-      "id": "menu-cheeseburger",
-      "description": "A juicy cheeseburger with fries.",
-      "imageUrl": "https://images.unsplash.com/photo-1700916536887-95b4742b6dd6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGVlc2VidXJnZXIlMjBmcmllc3xlbnwwfHx8fDE3NjYzODQxNjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "cheeseburger fries"
-    },
-    {
-      "id": "menu-chicken-curry",
-      "description": "A bowl of rich chicken tikka masala.",
-      "imageUrl": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGlja2VuJTIwY3Vycnl8ZW58MHx8fHwxNzY2NDA5MzAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "chicken curry"
-    },
-    {
       "id": "menu-pho-soup",
       "description": "A steaming bowl of Vietnamese pho.",
       "imageUrl": "https://images.unsplash.com/photo-1596016764780-a5fdbe817fbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwaG8lMjBzb3VwfGVufDB8fHx8MTc2NjQyMjYxMnww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -95,18 +167,6 @@
       "description": "A rack of smoky BBQ ribs.",
       "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYnElMjByaWJzfGVufDB8fHx8MTc2NjQyMjYxMnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "bbq ribs"
-    },
-    {
-      "id": "restaurant-cover-sushi",
-      "description": "A wide shot of a sushi bar.",
-      "imageUrl": "https://images.unsplash.com/photo-1651977560784-488c2b872df1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzdXNoaSUyMGJhcnxlbnwwfHx8fDE3NjYzODM2ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "sushi bar"
-    },
-    {
-      "id": "restaurant-cover-pizza",
-      "description": "A chef preparing pizza dough.",
-      "imageUrl": "https://images.unsplash.com/photo-1710575326152-4a397c13716d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwaXp6YSUyMGNoZWZ8ZW58MHx8fHwxNzY2NDIyNjEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "pizza chef"
     }
   ]
 }

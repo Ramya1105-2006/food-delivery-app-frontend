@@ -1,3 +1,4 @@
+
 "use client";
 
 import Image from "next/image";
@@ -40,6 +41,7 @@ export function MenuItemCard({ item }: MenuItemCardProps) {
                 data-ai-hint={item.image.imageHint}
                 fill
                 className="object-cover"
+                sizes="(max-width: 640px) 80px, 96px"
             />
         </div>
         <Button size="sm" variant="outline" onClick={handleAddToCart} className="w-full">
