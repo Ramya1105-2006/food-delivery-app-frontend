@@ -2,7 +2,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { getRestaurants, getPopularDishes } from "@/lib/data";
+import { getRestaurants, getRestaurantById } from "@/lib/data";
 import { DishCard } from "@/components/DishCard";
 import { RestaurantCard } from "@/components/RestaurantCard";
 import { Button } from "@/components/ui/button";
@@ -72,15 +72,12 @@ export default function Home() {
 
     useEffect(() => {
         async function fetchAllData() {
-            const restaurants = await getRestaurants();
+            const restaurantList = await getRestaurants();
             
-            // In a real app, we might have a dedicated endpoint for all menu items.
-            // For this prototype, we'll get all restaurants and then their menus.
-            const restaurantDetails = await Promise.all(
-                restaurants.map(r => getRestaurantById(r.id))
-            );
+            const restaurantDetailsPromises = restaurantList.map(r => getRestaurantById(r.id));
+            const restaurantsWithMenus = await Promise.all(restaurantDetailsPromises);
 
-            const allItems = restaurantDetails
+            const allItems = restaurantsWithMenus
                 .filter((r): r is Restaurant => r !== undefined)
                 .flatMap(r => r.menu)
                 .flatMap(mc => mc.items);
@@ -243,5 +240,4 @@ export default function Home() {
       </div>
     </div>
   );
-
-    
+}
