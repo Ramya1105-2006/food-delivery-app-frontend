@@ -28,6 +28,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { Loader2 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import { useAuth } from "@/hooks/use-auth";
 
 const formSchema = z.object({
   fullName: z.string().min(2, { message: "Name must be at least 2 characters."}),
@@ -40,6 +41,7 @@ const formSchema = z.object({
 export default function SignupPage() {
     const router = useRouter();
     const { toast } = useToast();
+    const { login } = useAuth();
     const [isSubmitting, setIsSubmitting] = useState(false);
 
     const form = useForm<z.infer<typeof formSchema>>({
@@ -57,6 +59,8 @@ export default function SignupPage() {
 
         await new Promise(resolve => setTimeout(resolve, 1000));
         
+        login({ email: values.email, fullName: values.fullName });
+
         toast({
             title: "Account Created!",
             description: "You have been successfully signed up.",
@@ -133,4 +137,3 @@ export default function SignupPage() {
         </div>
     );
 }
-
