@@ -282,13 +282,13 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
       {
-        protocol: 'https',
+        protocol: 'https' ,
         hostname: 'gomathirecipes.com',
         port: '',
         pathname: '/**',
       },
       {
-        protocol: 'https',
+        protocol: 'https' ,
         hostname: 'tomatoblues.com',
         port: '',
         pathname: '/**',
@@ -326,6 +326,12 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'www.kannammacooks.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.pixabay.com',
         port: '',
         pathname: '/**',
       }
