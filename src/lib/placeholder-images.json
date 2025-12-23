@@ -93,7 +93,7 @@
     {
       "id": "menu-pani-puri",
       "description": "A plate of delicious Pani Puri.",
-      "imageUrl": "https://www.awesomecuisine.com/wp-content/uploads/2007/11/Pani-Puri.jpg",
+      "imageUrl": "https://media.istockphoto.com/id/1304803975/photo/samosa-chaat.jpg?s=1024x1024&w=is&k=20&c=6Ipr_C3jB_lSnXJqCb7W0y_K9n_v-aH0ftxR6iT-Wjk=",
       "imageHint": "pani puri"
     },
     {
@@ -237,43 +237,43 @@
     {
       "id": "menu-mushroom-fry",
       "description": "Fried mushrooms",
-      "imageUrl": "https://images.unsplash.com/photo-1687877723436-061cc6e37fe8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtdXNocm9vbSUyMGZyeXxlbnwwfHx8fDE3NjY0NjY5OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://www.spiceindiaonline.com/wp-content/uploads/2020/07/Photo_1593905100097-scaled.jpg",
       "imageHint": "mushroom fry"
     },
     {
       "id": "menu-fried-rice",
       "description": "Vegetable fried rice",
-      "imageUrl": "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmcmllZCUyMHJpY2V8ZW58MHx8fHwxNzY2Mzg3NzIxfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://tse2.mm.bing.net/th/id/OIP.E_O9KEDECrPnt5p4H0M9jwHaE9?rs=1&pid=ImgDetMain&o=7&rm=3",
       "imageHint": "fried rice"
     },
     {
       "id": "menu-barbecue-chicken",
       "description": "Grilled chicken",
-      "imageUrl": "https://images.unsplash.com/photo-1623253458786-eac05e77be2b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxiYnElMjBjaGlja2VufGVufDB8fHx8MTc2NjQ2Njk5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://easychickenrecipes.com/wp-content/uploads/2019/08/grilled-bbq-chicken-recipe-1-of-7.jpg",
       "imageHint": "bbq chicken"
     },
     {
       "id": "menu-mango-chat",
       "description": "Raw mango snack",
-      "imageUrl": "https://images.unsplash.com/photo-1631860744320-ef87b26e7a33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYW5nbyUyMHNhbGFkfGVufDB8fHx8MTc2NjQ2Njk5Nnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ytimg.com/vi/HnnMtJIlXxI/maxresdefault.jpg",
       "imageHint": "mango salad"
     },
     {
       "id": "menu-masala-pori",
       "description": "Spiced puffed rice",
-      "imageUrl": "https://images.unsplash.com/photo-1505216980056-a7b7b1c6e000?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwdWZmZWQlMjByaWNlfGVufDB8fHx8MTc2NjQ2Njk5NXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i0.wp.com/gomathirecipes.com/wp-content/uploads/2022/11/masalapori.jpg?fit=1200%2C675&ssl=1",
       "imageHint": "puffed rice"
     },
     {
       "id": "menu-thattai-chat",
       "description": "Crispy thattai snack",
-      "imageUrl": "https://images.unsplash.com/photo-1766085683622-6bb826beaa67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjcmlzcHklMjBzbmFja3xlbnwwfHx8fDE3NjY0NjY5OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.pinimg.com/originals/18/ac/65/18ac65866e0950df18119bb7fa7e27f9.jpg",
       "imageHint": "crispy snack"
     },
     {
       "id": "menu-samosa",
       "description": "Fried potato snack",
-      "imageUrl": "https://images.unsplash.com/photo-1697155836252-d7f969108b5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzYW1vc2ElMjBzbmFja3xlbnwwfHx8fDE3NjY0NjY5OTR8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1697155836252-d7f969108b5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzYW1vc2ElMjBzbmFja3xlbnwwfHx8fDE3NjY0NjY5OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "samosa snack"
     },
     {
@@ -285,61 +285,61 @@
     {
       "id": "menu-bonda",
       "description": "Fried potato balls",
-      "imageUrl": "https://images.unsplash.com/photo-1625242661157-e9e5708ffe5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxib25kYSUyMHNuYWNrfGVufDB8fHx8MTc2NjQ2Njk5NXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1625242661157-e9e5708ffe5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxib25kYSUyMHNuYWNrfGVufDB8fHx8MTc2NjQ2Njk5NXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "bonda snack"
     },
     {
       "id": "menu-soup",
       "description": "Vegetable soup",
-      "imageUrl": "https://images.unsplash.com/photo-1511099968099-8da3c3fa3950?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx2ZWdldGFibGUlMjBzb3VwfGVufDB8fHx8MTc2NjM3MjcwMnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1511099968099-8da3c3fa3950?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx2ZWdldGFibGUlMjBzb3VwfGVufDB8fHx8MTc2NjM3MjcwMnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "vegetable soup"
     },
     {
       "id": "menu-poli",
       "description": "Sweet flatbread",
-      "imageUrl": "https://images.unsplash.com/photo-1629273519276-b633fce56989?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzd2VldCUyMGJyZWFkfGVufDB8fHx8MTc2NjQ2Njk5Nnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1629273519276-b633fce56989?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzd2VldCUyMGJyZWFkfGVufDB8fHx8MTc2NjQ2Njk5Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sweet bread"
     },
     {
       "id": "menu-sundal",
       "description": "Boiled legume snack",
-      "imageUrl": "https://images.unsplash.com/photo-1697862446263-2ae694814ccc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxsZWd1bWUlMjBzYWxhZHxlbnwwfHx8fDE3NjY0NjY5OTV8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1697862446263-2ae694814ccc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxsZWd1bWUlMjBzYWxhZHxlbnwwfHx8fDE3NjY0NjY5OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "legume salad"
     },
     {
       "id": "menu-kachayam",
       "description": "Fried sweet snack",
-      "imageUrl": "https://images.unsplash.com/photo-1556157408-ed905925a4cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzd2VldCUyMHNuYWNrfGVufDB8fHx8MTc2NjQ2Njk5NXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1556157408-ed905925a4cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzd2VldCUyMHNuYWNrfGVufDB8fHx8MTc2NjQ2Njk5NXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sweet snack"
     },
     {
       "id": "menu-black-forest-cake",
       "description": "Chocolate cream cake",
-      "imageUrl": "https://images.unsplash.com/photo-1517427294546-5aa121f68e8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaG9jb2xhdGUlMjBjYWtlfGVufDB8fHx8MTc2NjQ1OTExNXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1517427294546-5aa121f68e8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaG9jb2xhdGUlMjBjYWtlfGVufDB8fHx8MTc2NjQ1OTExNXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "chocolate cake"
     },
     {
       "id": "menu-lemon-juice",
       "description": "Fresh lemon juice",
-      "imageUrl": "https://images.unsplash.com/photo-1653542772393-71ffa417b1c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsZW1vbiUyMGp1aWNlfGVufDB8fHx8MTc2NjQ2Njk5NHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1653542772393-71ffa417b1c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsZW1vbiUyMGp1aWNlfGVufDB8fHx8MTc2NjQ2Njk5NHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "lemon juice"
     },
     {
       "id": "menu-laddu",
       "description": "Sweet laddu",
-      "imageUrl": "https://images.unsplash.com/photo-1758910536889-43ce7b3199fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsYWRkdSUyMHN3ZWV0fGVufDB8fHx8MTc2NjQ2Njk5NXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1758910536889-43ce7b3199fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsYWRkdSUyMHN3ZWV0fGVufDB8fHx8MTc2NjQ2Njk5NXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "laddu sweet"
     },
     {
       "id": "menu-palkova",
       "description": "Milk sweet",
-      "imageUrl": "https://images.unsplash.com/photo-1664744471471-5a28a4ae0cdb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtaWxrJTIwc3dlZXR8ZW58MHx8fHwxNzY2NDY2OTk1fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1664744471471-5a28a4ae0cdb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtaWxrJTIwc3dlZXR8ZW58MHx8fHwxNzY2NDY2OTk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "milk sweet"
     },
     {
       "id": "menu-honey-cake",
       "description": "Honey flavored cake",
-      "imageUrl": "https://images.unsplash.com/photo-1731045102967-6e97132a7245?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxob25leSUyMGNha2V8ZW58MHx8fHwxNzY2NDY2OTk1fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1731045102967-6e97132a7245?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxob25leSUyMGNha2V8ZW58MHx8fHwxNzY2NDY2OTk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "honey cake"
     }
   ]

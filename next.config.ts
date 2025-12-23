@@ -274,6 +274,24 @@ const nextConfig: NextConfig = {
         hostname: 'www.whiskaffair.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.spiceindiaonline.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'easychickenrecipes.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'gomathirecipes.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
@@ -281,4 +299,5 @@ const nextConfig: NextConfig = {
 
 export default nextConfig;
 
+    
     
