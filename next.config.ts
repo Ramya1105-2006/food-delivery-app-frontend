@@ -1,8 +1,6 @@
-
-import type {NextConfig} from 'next';
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -67,6 +65,7 @@ const nextConfig: NextConfig = {
       { protocol: 'https', hostname: 'm.media-amazon.com' },
       { protocol: 'https', hostname: 'thebigmansworld.com' },
       { protocol: 'https', hostname: 'cdn.pixabay.com' },
+      { protocol: 'https', hostname: 'cdn.sixtyandme.com' },
     ],
   },
 };
