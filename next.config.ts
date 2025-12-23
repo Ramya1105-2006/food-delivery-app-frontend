@@ -211,12 +211,6 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
-        hostname: '3.bp.blogspot.com',
-        port: '',
-        pathname: '/**',
-      },
-      {
-        protocol: 'https',
         hostname: 'as2.ftcdn.net',
         port: '',
         pathname: '/**',
@@ -302,6 +296,12 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'www.foodandwine.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'http',
+        hostname: '3.bp.blogspot.com',
         port: '',
         pathname: '/**',
       }
