@@ -37,27 +37,33 @@
       "imageHint": "dessert shop"
     },
     {
-      "id": "menu-dosa",
+      "id": "menu-masala-dosa",
       "description": "A golden crispy Masala Dosa.",
       "imageUrl": "https://palatesdesire.com/wp-content/uploads/2022/09/Mysore-masala-dosa-recipe@palates-desire.jpg",
       "imageHint": "masala dosa"
     },
     {
+      "id": "menu-plain-dosa",
+      "description": "A golden crispy Plain Dosa.",
+      "imageUrl": "https://oventales.com/wp-content/uploads/2017/05/Plain-Dosa002.jpg",
+      "imageHint": "plain dosa"
+    },
+    {
       "id": "menu-idli",
       "description": "Soft and fluffy Idlis with Sambar and chutney.",
-      "imageUrl": "https://images.unsplash.com/photo-1602264569363-a2624f46dc33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpZGxpJTIwc2FtYmFyfGVufDB8fHx8MTcxNzUzNjM4MHww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://www.healthifyme.com/blog/wp-content/uploads/2018/03/idly2.jpeg",
       "imageHint": "idli sambar"
     },
     {
       "id": "menu-pongal",
       "description": "A bowl of delicious pongal.",
-      "imageUrl": "https://images.unsplash.com/photo-1578755993043-ae4e4b7a19de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwb25nYWx8ZW58MHx8fHwxNzY2NDExNzgyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.pinimg.com/originals/38/90/7d/38907d97723bce44e0bbb4a6d5bd3e37.jpg",
       "imageHint": "pongal"
     },
     {
       "id": "menu-uttapam",
       "description": "A vegetable uttapam.",
-      "imageUrl": "https://picsum.photos/seed/uttapam/600/400",
+      "imageUrl": "https://www.cookingcarnival.com/wp-content/uploads/2022/02/Uttapam-recipe.jpg",
       "imageHint": "uttapam"
     },
     {
@@ -99,37 +105,37 @@
     {
       "id": "menu-gulab-jamun",
       "description": "Warm Gulab Jamuns in syrup.",
-      "imageUrl": "https://images.unsplash.com/photo-1680993032090-1ef7ea9b51e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxndWxhYiUyMGphbXVufGVufDB8fHx8MTc2NjM0Mzg0Nnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1680993032090-1ef7ea9b51e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxndWxhYiUyMGphbXVufGVufDB8fHx8MTc2NjM0Mzg0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "gulab jamun"
     },
     {
       "id": "menu-rasgulla",
       "description": "Rasgulla sweets.",
-      "imageUrl": "https://images.unsplash.com/photo-1714799263412-2e0c1f875959?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyYXNndWxsYXxlbnwwfHx8fDE3NjY0MTY5ODN8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1714799263412-2e0c1f875959?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyYXNndWxsYXxlbnwwfHx8fDE3NjY0MTY5ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "rasgulla"
     },
     {
       "id": "menu-ice-cream",
       "description": "A scoop of ice cream.",
-      "imageUrl": "https://images.unsplash.com/photo-1576506295286-5cda18df43e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aWNlJTIwY3JlYW18ZW58MHx8fHwxNzY2Mzc3Mjk2fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1576506295286-5cda18df43e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aWNlJTIwY3JlYW18ZW58MHx8fHwxNzY2Mzc3Mjk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "ice cream"
     },
     {
       "id": "menu-falooda",
       "description": "A glass of falooda.",
-      "imageUrl": "https://images.unsplash.com/photo-1630823183554-21c9702297f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmYWxvb2RhfGVufDB8fHx8MTc2NjQ2MzUzM3ww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1630823183554-21c9702297f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmYWxvb2RhfGVufDB8fHx8MTc2NjQ2MzUzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "falooda"
     },
     {
       "id": "menu-parotta",
       "description": "Layered flatbread",
-      "imageUrl": "https://images.unsplash.com/photo-1634976997107-8cfa3b4ec10f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYXJvdHRhJTIwYnJlYWR8ZW58MHx8fHwxNzY2NDY2OTk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://farm9.staticflickr.com/8628/16023206193_a6fd1310de_o.jpg",
       "imageHint": "parotta bread"
     },
     {
       "id": "menu-kothu-parotta",
       "description": "Shredded parotta with spices",
-      "imageUrl": "https://picsum.photos/seed/kothuparotta/600/400",
+      "imageUrl": "https://www.licious.in/blog/wp-content/uploads/2020/06/KUTTU-PORATTA-750x750.jpg",
       "imageHint": "kothu parotta"
     },
     {
@@ -141,61 +147,61 @@
     {
       "id": "menu-curd-rice",
       "description": "Rice with curd",
-      "imageUrl": "https://images.unsplash.com/photo-1633383718081-22ac93e3db65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjdXJkJTIwcmljZXxlbnwwfHx8fDE3NjYzODc3MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/02/curd-rice-thayir-sadam.jpg",
       "imageHint": "curd rice"
     },
     {
       "id": "menu-mint-rice",
       "description": "Mint flavored rice",
-      "imageUrl": "https://images.unsplash.com/photo-1633383718081-22ac93e3db65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtaW50JTIwcmljZXxlbnwwfHx8fDE3NjY0NjY5OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://www.sandyathome.com/wp-content/uploads/2019/09/mint-rice.jpg",
       "imageHint": "mint rice"
     },
     {
       "id": "menu-tamarind-rice",
       "description": "Tamarind flavored rice",
-      "imageUrl": "https://images.unsplash.com/photo-1747518596416-2da5e5218d83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0YW1hcmluZCUyMHJpY2V8ZW58MHx8fHwxNzY2NDY2OTk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://vanitascorner.com/wp-content/uploads/2023/05/puliyogare-FB.jpg",
       "imageHint": "tamarind rice"
     },
     {
       "id": "menu-dal-rice",
       "description": "Rice with dal",
-      "imageUrl": "https://images.unsplash.com/photo-1704916029542-da6fa7bc34e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZGFsJTIwcmljZXxlbnwwfHx8fDE3NjY0NjY5OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://media.30seconds.com/tip/lg/Red-Lentil-Dal-Rice-Recipe-34072-eff47d38bc-1636485374.jpg",
       "imageHint": "dal rice"
     },
     {
       "id": "menu-potato-fry",
       "description": "Fried potatoes",
-      "imageUrl": "https://images.unsplash.com/photo-1611575855144-fdca2fc32ebd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwb3RhdG8lMjBmcnl8ZW58MHx8fHwxNzY2NDY2OTk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.ytimg.com/vi/XGEqyzhTM1w/maxresdefault.jpg",
       "imageHint": "potato fry"
     },
     {
       "id": "menu-adai",
       "description": "Lentil dosa",
-      "imageUrl": "https://images.unsplash.com/photo-1630409351241-e90e7f5e434d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhZGFpJTIwZG9zYXxlbnwwfHx8fDE3NjY0NjY5OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://www.vegrecipesofindia.com/wp-content/uploads/2018/09/adai-recipe-2.jpg",
       "imageHint": "adai dosa"
     },
     {
       "id": "menu-idiyappam",
       "description": "Steamed rice noodles",
-      "imageUrl": "https://images.unsplash.com/photo-1720499035754-a1ec40e614a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cmljZSUyMG5vb2RsZXN8ZW58MHx8fHwxNzY2NDY2OTk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://aromacookbook.files.wordpress.com/2023/02/idiyappam-peas-curry-12.jpg?w=1500",
       "imageHint": "rice noodles"
     },
     {
       "id": "menu-kottan-choru",
       "description": "Mixed rice meal",
-      "imageUrl": "https://images.unsplash.com/photo-1613045935265-265ff612e0e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWl4ZWQlMjByaWNlfGVufDB8fHx8MTc2NjQ2Njk5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://3.bp.blogspot.com/-3IzcsXPlTA4/VMJkeo276tI/AAAAAAAAF0s/rQLpR49ZeZE/s1600/IMG_20150109_142434.jpg",
       "imageHint": "mixed rice"
     },
     {
       "id": "menu-full-meals",
       "description": "South Indian meals",
-      "imageUrl": "https://images.unsplash.com/photo-1756741987051-a6a38f28838b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxpbmRpYW4lMjB0aGFsaXxlbnwwfHx8fDE3NjY0NjYwMTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://as2.ftcdn.net/v2/jpg/00/88/20/67/1000_F_88206782_jWghuabNP4lgusju0T0KaFNKSblgPuIz.jpg",
       "imageHint": "indian thali"
     },
     {
       "id": "menu-lemon-rice",
       "description": "Lemon flavored rice",
-      "imageUrl": "https://images.unsplash.com/photo-1633760040841-1f708ce95c56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsZW1vbiUyMHJpY2V8ZW58MHx8fHwxNzY2NDY2OTk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://www.flavourstreat.com/wp-content/uploads/2020/12/turmeric-lemon-rice-recipe-02-500x500.jpg",
       "imageHint": "lemon rice"
     },
     {
@@ -261,7 +267,7 @@
     {
       "id": "menu-samosa",
       "description": "Fried potato snack",
-      "imageUrl": "https://images.unsplash.com/photo-1697155836252-d7f969108b5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzYW1vc2ElMjBzbmFja3xlbnwwfHx8fDE3NjY0NjY5OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1697155836252-d7f969108b5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzYW1vc2ElMjBzbmFja3xlbnwwfHx8fDE3NjY0NjY5OTR8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "samosa snack"
     },
     {
@@ -309,7 +315,7 @@
     {
       "id": "menu-lemon-juice",
       "description": "Fresh lemon juice",
-      "imageUrl": "https://images.unsplash.com/photo-1653542772393-71ffa417b1c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsZW1vbiUyMGp1aWNlfGVufDB8fHx8MTc2NjQ2Njk5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1653542772393-71ffa417b1c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsZW1vbiUyMGp1aWNlfGVufDB8fHx8MTc2NjQ2Njk5NHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "lemon juice"
     },
     {
