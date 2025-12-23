@@ -21,7 +21,7 @@ import { Badge } from "@/components/ui/badge";
 import type { Restaurant, MenuItem } from "@/lib/types";
 
 const cuisineCategories = [
-  { name: "South Indian", icon: "https://picsum.photos/seed/cat1/100", emoji: "🥞" },
+  { name: "South Indian", icon: "https://img.freepik.com/premium-photo/indian-cuisine-meals-served-banana-leaf-traditional-south-indian-cuisine_875825-50086.jpg?w=2000", emoji: "🥞" },
   { name: "North Indian", icon: "https://picsum.photos/seed/cat2/100", emoji: "🍲" },
   { name: "Biryani", icon: "https://picsum.photos/seed/cat3/100", emoji: "🍗" },
   { name: "Street Food", icon: "https://picsum.photos/seed/cat4/100", emoji: "🌶️" },
