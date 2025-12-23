@@ -29,8 +29,8 @@ export function MenuItemCard({ item }: MenuItemCardProps) {
     <div className="flex items-start gap-4 rounded-lg p-4 transition-colors hover:bg-secondary/50">
       <div className="flex-1">
         <div className="flex items-center gap-2">
-            <VegNonVegIcon type={item.type} className="h-5 w-5" />
-            <h3 className="font-bold font-headline">{item.name}</h3>
+            <VegNonVegIcon type={item.type} />
+            <h3 className="font-bold">{item.name}</h3>
         </div>
         <p className="mt-1 text-sm text-muted-foreground">{item.description}</p>
         <p className="mt-2 font-semibold text-primary">
