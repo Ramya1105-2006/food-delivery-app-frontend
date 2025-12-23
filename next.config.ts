@@ -288,7 +288,7 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
       {
-        protocol: 'https' ,
+        protocol: 'http' ,
         hostname: 'tomatoblues.com',
         port: '',
         pathname: '/**',
