@@ -1,10 +1,13 @@
 
+"use client";
+
+import { useState } from "react";
 import { getRestaurants } from "@/lib/data";
 import { DishCard } from "@/components/DishCard";
 import { RestaurantCard } from "@/components/RestaurantCard";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { Search, MapPin, ArrowRight, Utensils, Bike, Leaf, ShieldCheck } from "lucide-react";
+import { Search, MapPin, ArrowRight, Utensils, Bike, Leaf, ShieldCheck, ChevronLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -15,22 +18,23 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 import { Badge } from "@/components/ui/badge";
+import type { Restaurant, MenuItem } from "@/lib/types";
 
 const cuisineCategories = [
-  { name: "South Indian", icon: "https://picsum.photos/seed/cat1/100" },
-  { name: "North Indian", icon: "https://picsum.photos/seed/cat2/100" },
-  { name: "Biryani", icon: "https://picsum.photos/seed/cat3/100" },
-  { name: "Street Food", icon: "https://picsum.photos/seed/cat4/100" },
-  { name: "Chinese", icon: "https://picsum.photos/seed/cat5/100" },
-  { name: "Fast Food", icon: "https://picsum.photos/seed_fastfood/100/100" },
-  { name: "Desserts", icon: "https://picsum.photos/seed/cat7/100" },
+  { name: "South Indian", icon: "https://picsum.photos/seed/cat1/100", emoji: "🥞" },
+  { name: "North Indian", icon: "https://picsum.photos/seed/cat2/100", emoji: "🍲" },
+  { name: "Biryani", icon: "https://picsum.photos/seed/cat3/100", emoji: "🍗" },
+  { name: "Street Food", icon: "https://picsum.photos/seed/cat4/100", emoji: "🌶️" },
+  { name: "Chinese", icon: "https://picsum.photos/seed/cat5/100", emoji: "🍜" },
+  { name: "Fast Food", icon: "https://picsum.photos/seed_fastfood/100/100", emoji: "🍔" },
+  { name: "Desserts", icon: "https://picsum.photos/seed/cat7/100", emoji: "🍰" },
 ];
 
-const popularDishes = [
-    { id: "sih1", name: "Masala Dosa", description: "Crispy crepe with spiced potato filling.", price: 120.00, image: { imageUrl: "https://images.unsplash.com/photo-1643221124559-62b8a78377da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXNhbGElMjBkb3NhfGVufDB8fHx8MTcxNzUzNjM0Nnww&ixlib=rb-4.0.3&q=80&w=1080", imageHint: "masala dosa" }, type: 'veg' },
-    { id: "bp1", name: "Chicken Dum Biryani", description: "Aromatic rice and chicken cooked in a sealed pot.", price: 350.00, image: { imageUrl: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlja2VuJTIwYmlyeWFuaXxlbnwwfHx8fDE3MTc1MzY2ODV8MA&ixlib=rb-4.0.3&q=80&w=1080", imageHint: "chicken biryani" }, type: 'non-veg' },
-    { id: "pd1", name: "Paneer Butter Masala", description: "Cottage cheese in a creamy tomato gravy.", price: 320.00, image: { imageUrl: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYW5lZXIlMjBidXR0ZXIlMjBtYXNhbGF8ZW58MHx8fHwxNzE3NTM2ODgxfDA&ixlib=rb-4.0.3&q=80&w=1080", imageHint: "paneer masala" }, type: 'veg' },
-    { id: "cc1", name: "Pani Puri", description: "Hollow crisps filled with tangy water.", price: 70.00, image: { imageUrl: "https://images.unsplash.com/photo-1631782290008-59c4a8d38b64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYW5pJTIwcHVyaXxlbnwwfHx8fDE3MTc1MzcwMTN8MA&ixlib=rb-4.0.3&q=80&w=1080", imageHint: "pani puri" }, type: 'veg' },
+const popularDishes: MenuItem[] = [
+    { id: "sih1", name: "Masala Dosa", description: "Crispy crepe with spiced potato filling.", price: 120.00, image: { id:"menu-dosa", description:"dosa", imageUrl: "https://images.unsplash.com/photo-1643221124559-62b8a78377da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXNhbGElMjBkb3NhfGVufDB8fHx8MTcxNzUzNjM0Nnww&ixlib=rb-4.0.3&q=80&w=1080", imageHint: "masala dosa" }, type: 'veg' },
+    { id: "bp1", name: "Chicken Dum Biryani", description: "Aromatic rice and chicken cooked in a sealed pot.", price: 350.00, image: { id:"menu-chicken-biryani", description:"biryani", imageUrl: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlja2VuJTIwYmlyeWFuaXxlbnwwfHx8fDE3MTc1MzY2ODV8MA&ixlib=rb-4.0.3&q=80&w=1080", imageHint: "chicken biryani" }, type: 'non-veg' },
+    { id: "pd1", name: "Paneer Butter Masala", description: "Cottage cheese in a creamy tomato gravy.", price: 320.00, image: { id:"menu-paneer-butter-masala", description:"paneer", imageUrl: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYW5lZXIlMjBidXR0ZXIlMjBtYXNhbGF8ZW58MHx8fHwxNzE3NTM2ODgxfDA&ixlib=rb-4.0.3&q=80&w=1080", imageHint: "paneer masala" }, type: 'veg' },
+    { id: "cc1", name: "Pani Puri", description: "Hollow crisps filled with tangy water.", price: 70.00, image: { id: "menu-pani-puri", description:"puri", imageUrl: "https://images.unsplash.com/photo-1631782290008-59c4a8d38b64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYW5pJTIwcHVyaXxlbnwwfHx8fDE3MTc1MzcwMTN8MA&ixlib=rb-4.0.3&q=80&w=1080", imageHint: "pani puri" }, type: 'veg' },
 ];
 
 const features = [
@@ -40,12 +44,24 @@ const features = [
     { icon: ShieldCheck, title: "Secure Payments", description: "Safe and easy online payments." },
 ];
 
-async function TopRestaurants() {
-  const allRestaurants = await getRestaurants();
+
+function TopRestaurants() {
+    const [restaurants, setRestaurants] = useState<Omit<Restaurant, 'menu'>[]>([]);
+
+    useState(() => {
+        async function fetchRestaurants() {
+            const allRestaurants = await getRestaurants();
+            setRestaurants(allRestaurants);
+        }
+        fetchRestaurants();
+    });
+
+  if (!restaurants.length) return null; // Or a loading skeleton
+
   return (
     <Carousel opts={{ align: "start", loop: true }} className="w-full">
       <CarouselContent>
-        {allRestaurants.map((restaurant) => (
+        {restaurants.map((restaurant) => (
           <CarouselItem key={restaurant.id} className="md:basis-1/2 lg:basis-1/3">
               <div className="p-1">
                 <RestaurantCard restaurant={restaurant} />
@@ -61,6 +77,35 @@ async function TopRestaurants() {
 
 
 export default function Home() {
+    const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+
+    const handleCategorySelect = (categoryName: string) => {
+        setSelectedCategory(categoryName);
+    };
+
+    const clearCategorySelection = () => {
+        setSelectedCategory(null);
+    };
+
+    const getFilteredDishes = () => {
+        if (!selectedCategory) {
+            return popularDishes;
+        }
+        // This is a mock filter. In a real app, you'd fetch this data.
+        // For now, it just filters the popular dishes based on some keywords.
+        const lowerCaseCategory = selectedCategory.toLowerCase();
+        return popularDishes.filter(dish => 
+            dish.name.toLowerCase().includes(lowerCaseCategory) || 
+            dish.description.toLowerCase().includes(lowerCaseCategory) ||
+            (lowerCaseCategory.includes('biryani') && dish.name.toLowerCase().includes('biryani')) ||
+            (lowerCaseCategory.includes('south') && dish.name.toLowerCase().includes('dosa'))
+        );
+    }
+    
+    const filteredDishes = getFilteredDishes();
+    const selectedCategoryDetails = cuisineCategories.find(c => c.name === selectedCategory);
+
+
   return (
     <div className="bg-background">
       {/* Hero Section */}
@@ -111,7 +156,7 @@ export default function Home() {
                 <CarouselContent>
                     {cuisineCategories.map((category) => (
                     <CarouselItem key={category.name} className="basis-1/3 sm:basis-1/4 md:basis-1/6 lg:basis-1/8">
-                        <Link href="#" className="group flex flex-col items-center gap-2 text-center">
+                        <button onClick={() => handleCategorySelect(category.name)} className="group flex flex-col items-center gap-2 text-center w-full">
                             <div className="relative h-24 w-24 overflow-hidden rounded-full transition-all duration-300 group-hover:scale-105 group-hover:shadow-lg">
                                 <Image
                                 src={category.icon}
@@ -123,7 +168,7 @@ export default function Home() {
                                 />
                             </div>
                             <span className="font-semibold text-foreground">{category.name}</span>
-                        </Link>
+                        </button>
                     </CarouselItem>
                     ))}
                 </CarouselContent>
@@ -132,13 +177,31 @@ export default function Home() {
 
         {/* Popular Dishes Section */}
         <section className="py-12">
-          <h2 className="text-3xl font-bold font-headline mb-8">Top Picks For You</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {popularDishes.map((dish) => (
-                // @ts-ignore
-                <DishCard key={dish.id} item={dish} />
-            ))}
-          </div>
+            {selectedCategory ? (
+                <div className="flex items-center justify-between mb-8">
+                    <h2 className="text-3xl font-bold font-headline">
+                        {selectedCategoryDetails?.emoji} {selectedCategory}
+                    </h2>
+                    <Button variant="ghost" onClick={clearCategorySelection}>
+                        <ChevronLeft className="mr-2 h-4 w-4" />
+                        Back to all dishes
+                    </Button>
+                </div>
+            ) : (
+                <h2 className="text-3xl font-bold font-headline mb-8">Top Picks For You</h2>
+            )}
+
+            {filteredDishes.length > 0 ? (
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    {filteredDishes.map((dish) => (
+                        <DishCard key={dish.id} item={dish} />
+                    ))}
+                </div>
+            ) : (
+                <div className="text-center py-16">
+                    <p className="text-muted-foreground">No dishes found for this category. Try another!</p>
+                </div>
+            )}
         </section>
 
         {/* Top Restaurants Section */}
@@ -194,3 +257,4 @@ export default function Home() {
     </div>
   );
 }
+

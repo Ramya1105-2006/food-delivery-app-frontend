@@ -6,9 +6,8 @@ import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
 import { useCart } from "@/hooks/use-cart";
 import type { MenuItem } from "@/lib/types";
-import { PlusCircle, Star } from "lucide-react";
+import { PlusCircle } from "lucide-react";
 import { VegNonVegIcon } from "./icons/VegNonVegIcon";
-import { Badge } from "./ui/badge";
 import { Card, CardContent, CardFooter, CardHeader } from "./ui/card";
 
 interface DishCardProps {
@@ -43,7 +42,7 @@ export function DishCard({ item }: DishCardProps) {
             </div>
         </CardHeader>
         <CardContent className="p-4 flex-1">
-            <h3 className="text-lg font-bold font-headline truncate">{item.name}</h3>
+            <h3 className="text-lg font-bold truncate">{item.name}</h3>
             <p className="mt-1 text-sm text-muted-foreground h-10 overflow-hidden text-ellipsis">
                 {item.description}
             </p>
