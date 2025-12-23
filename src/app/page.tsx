@@ -73,13 +73,12 @@ export default function Home() {
     useEffect(() => {
         async function fetchAllData() {
             const restaurants = await getRestaurants();
-            const allMenuItems = restaurants.flatMap(r => 
-                r.menu ? r.menu.flatMap(mc => mc.items) : []
-            );
             
-            // In a real app, we would fetch restaurant data which includes the menu.
-            // For this prototype, we need to get all restaurants and then their menus.
-            const restaurantDetails = await Promise.all(restaurants.map(r => import(`@/lib/data`).then(mod => mod.getRestaurantById(r.id))));
+            // In a real app, we might have a dedicated endpoint for all menu items.
+            // For this prototype, we'll get all restaurants and then their menus.
+            const restaurantDetails = await Promise.all(
+                restaurants.map(r => getRestaurantById(r.id))
+            );
 
             const allItems = restaurantDetails
                 .filter((r): r is Restaurant => r !== undefined)
@@ -101,25 +100,35 @@ export default function Home() {
 
     const getFilteredDishes = () => {
         if (!selectedCategory) {
-            // Show a default selection of popular dishes when no category is selected.
+            // Show a default selection of 4 popular dishes when no category is selected.
             const popularDishIds = ['si-1', 'b-1', 'ni-1', 'sf-1'];
             return allDishes.filter(dish => popularDishIds.includes(dish.id));
         }
         
         const lowerCaseCategory = selectedCategory.toLowerCase();
+        let categoryDishes: MenuItem[] = [];
         
         // A more robust filtering logic
-        if(lowerCaseCategory.includes('south indian')) return allDishes.filter(d => d.id.startsWith('si-'));
-        if(lowerCaseCategory.includes('north indian')) return allDishes.filter(d => d.id.startsWith('ni-'));
-        if(lowerCaseCategory.includes('biryani')) return allDishes.filter(d => d.id.startsWith('b-'));
-        if(lowerCaseCategory.includes('street food')) return allDishes.filter(d => d.id.startsWith('sf-'));
-        if(lowerCaseCategory.includes('snacks')) return allDishes.filter(d => d.id.startsWith('sn-'));
-        if(lowerCaseCategory.includes('desserts')) return allDishes.filter(d => d.id.startsWith('d-'));
-
-        return allDishes.filter(dish => 
-            dish.name.toLowerCase().includes(lowerCaseCategory) || 
-            dish.description.toLowerCase().includes(lowerCaseCategory)
-        );
+        if(lowerCaseCategory.includes('south indian')) {
+            categoryDishes = allDishes.filter(d => d.id.startsWith('si-'));
+        } else if(lowerCaseCategory.includes('north indian')) {
+            categoryDishes = allDishes.filter(d => d.id.startsWith('ni-'));
+        } else if(lowerCaseCategory.includes('biryani')) {
+            categoryDishes = allDishes.filter(d => d.id.startsWith('b-'));
+        } else if(lowerCaseCategory.includes('street food')) {
+            categoryDishes = allDishes.filter(d => d.id.startsWith('sf-'));
+        } else if(lowerCaseCategory.includes('snacks')) {
+            categoryDishes = allDishes.filter(d => d.id.startsWith('sn-'));
+        } else if(lowerCaseCategory.includes('desserts')) {
+            categoryDishes = allDishes.filter(d => d.id.startsWith('d-'));
+        } else {
+            categoryDishes = allDishes.filter(dish => 
+                dish.name.toLowerCase().includes(lowerCaseCategory) || 
+                dish.description.toLowerCase().includes(lowerCaseCategory)
+            );
+        }
+        
+        return categoryDishes.slice(0, 4);
     }
     
     const filteredDishes = getFilteredDishes();
@@ -234,4 +243,5 @@ export default function Home() {
       </div>
     </div>
   );
-}
+
+    
