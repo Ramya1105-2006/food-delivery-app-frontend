@@ -5,9 +5,8 @@ import { useState } from "react";
 import { getRestaurants, getPopularDishes } from "@/lib/data";
 import { DishCard } from "@/components/DishCard";
 import { RestaurantCard } from "@/components/RestaurantCard";
-import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { Search, MapPin, ArrowRight, Utensils, Bike, Leaf, ShieldCheck, ChevronLeft } from "lucide-react";
+import { MapPin, ArrowRight, Utensils, Bike, Leaf, ShieldCheck, ChevronLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -17,7 +16,6 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
-import { Badge } from "@/components/ui/badge";
 import type { Restaurant, MenuItem } from "@/lib/types";
 
 const cuisineCategories = [
@@ -134,23 +132,12 @@ export default function Home() {
           <p className="mt-4 text-lg md:text-xl max-w-2xl animate-fade-in-up">
             From street food to royal biryanis — order your favorites anytime.
           </p>
-          <div className="mt-8 flex w-full max-w-2xl flex-col sm:flex-row items-center gap-2 rounded-full bg-white p-2 shadow-lg">
-            <div className="flex items-center w-full sm:w-auto flex-1 pl-4">
+          <div className="mt-8 flex w-full max-w-sm flex-col sm:flex-row items-center gap-2 rounded-full bg-white p-2 shadow-lg">
+            <div className="flex items-center w-full justify-center pl-4">
               <MapPin className="h-5 w-5 text-muted-foreground" />
               <Button variant="link" className="text-foreground font-semibold">
                 Select Location
               </Button>
-            </div>
-            <div className="hidden sm:block h-8 border-l border-gray-200"></div>
-            <div className="flex items-center w-full flex-[2]">
-                <Input
-                    placeholder="Search for dishes or cuisines..."
-                    className="h-12 border-none text-md focus-visible:ring-0 focus-visible:ring-offset-0"
-                    aria-label="Search for dishes or cuisines"
-                />
-                <Button size="icon" className="rounded-full w-10 h-10 mr-1 bg-primary">
-                    <Search className="h-5 w-5 text-primary-foreground" />
-                </Button>
             </div>
           </div>
         </div>
@@ -221,29 +208,6 @@ export default function Home() {
             </Button>
           </div>
           <TopRestaurants />
-        </section>
-
-        {/* Offers & Discounts Section */}
-        <section className="py-12">
-            <h2 className="text-3xl font-bold mb-8 text-center">Offers For You</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="relative bg-gradient-to-r from-yellow-400 to-orange-500 rounded-xl p-8 text-white overflow-hidden">
-                    <div className="relative z-10">
-                        <h3 className="text-3xl font-bold">Flat 50% OFF</h3>
-                        <p className="mt-2">On your first order. Use code: <Badge variant="secondary" className="text-orange-500 font-bold">FIRST50</Badge></p>
-                        <Button variant="secondary" className="mt-4 text-orange-500">Order Now</Button>
-                    </div>
-                     <Utensils className="absolute -right-4 -bottom-4 h-32 w-32 text-white/20" />
-                </div>
-                <div className="relative bg-gradient-to-r from-green-400 to-teal-500 rounded-xl p-8 text-white overflow-hidden">
-                    <div className="relative z-10">
-                        <h3 className="text-3xl font-bold">Free Delivery</h3>
-                        <p className="mt-2">On all orders above ₹299</p>
-                        <Button variant="secondary" className="mt-4 text-teal-500">Explore Restaurants</Button>
-                    </div>
-                     <Bike className="absolute -right-4 -bottom-4 h-32 w-32 text-white/20" />
-                </div>
-            </div>
         </section>
         
         {/* Why Choose Us Section */}
