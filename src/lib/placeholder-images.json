@@ -110,21 +110,51 @@
     },
     {
       "id": "menu-rasgulla",
-      "description": "Rasgulla sweets.",
+      "description": "Spongy cottage cheese balls",
       "imageUrl": "https://images.unsplash.com/photo-1714799263412-2e0c1f875959?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyYXNndWxsYXxlbnwwfHx8fDE3NjY0MTY5ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "rasgulla"
     },
     {
+      "id": "menu-black-forest-cake",
+      "description": "Chocolate cake with cream",
+      "imageUrl": "https://images.unsplash.com/photo-1517427294546-5aa121f68e8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaG9jb2xhdGUlMjBjYWtlfGVufDB8fHx8MTc2NjQ1OTExNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chocolate cake"
+    },
+    {
       "id": "menu-ice-cream",
-      "description": "A scoop of ice cream.",
+      "description": "Chilled ice cream scoop",
       "imageUrl": "https://images.unsplash.com/photo-1576506295286-5cda18df43e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aWNlJTIwY3JlYW18ZW58MHx8fHwxNzY2Mzc3Mjk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "ice cream"
     },
     {
+      "id": "menu-lemon-juice",
+      "description": "Fresh lemon juice",
+      "imageUrl": "https://images.unsplash.com/photo-1653542772393-71ffa417b1c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsZW1vbiUyMGp1aWNlfGVufDB8fHx8MTc2NjQ2Njk5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lemon juice"
+    },
+    {
       "id": "menu-falooda",
-      "description": "A glass of falooda.",
+      "description": "Rose flavored dessert drink",
       "imageUrl": "https://images.unsplash.com/photo-1630823183554-21c9702297f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmYWxvb2RhfGVufDB8fHx8MTc2NjQ2MzUzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "falooda"
+    },
+    {
+      "id": "menu-laddu",
+      "description": "Traditional sweet laddu",
+      "imageUrl": "https://images.unsplash.com/photo-1758910536889-43ce7b3199fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsYWRkdSUyMHN3ZWV0fGVufDB8fHx8MTc2NjQ2Njk5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "laddu sweet"
+    },
+    {
+      "id": "menu-palkova",
+      "description": "Milk-based sweet delicacy",
+      "imageUrl": "https://images.unsplash.com/photo-1664744471471-5a28a4ae0cdb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtaWxrJTIwc3dlZXR8ZW58MHx8fHwxNzY2NDY2OTk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "milk sweet"
+    },
+    {
+      "id": "menu-honey-cake",
+      "description": "Soft cake with honey flavor",
+      "imageUrl": "https://images.unsplash.com/photo-1731045102967-6e97132a7245?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxob25leSUyMGNha2V8ZW58MHx8fHwxNzY2NDY2OTk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "honey cake"
     },
     {
       "id": "menu-parotta",
@@ -305,36 +335,6 @@
       "description": "Fried sweet snack",
       "imageUrl": "https://www.kannammacooks.com/wp-content/uploads/pazha-kachayam-banana-kajjaya-tamil-recipe-1.jpg",
       "imageHint": "sweet snack"
-    },
-    {
-      "id": "menu-black-forest-cake",
-      "description": "Chocolate cream cake",
-      "imageUrl": "https://images.unsplash.com/photo-1517427294546-5aa121f68e8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaG9jb2xhdGUlMjBjYWtlfGVufDB8fHx8MTc2NjQ1OTExNXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "chocolate cake"
-    },
-    {
-      "id": "menu-lemon-juice",
-      "description": "Fresh lemon juice",
-      "imageUrl": "https://images.unsplash.com/photo-1653542772393-71ffa417b1c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsZW1vbiUyMGp1aWNlfGVufDB8fHx8MTc2NjQ2Njk5NHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "lemon juice"
-    },
-    {
-      "id": "menu-laddu",
-      "description": "Sweet laddu",
-      "imageUrl": "https://images.unsplash.com/photo-1758910536889-43ce7b3199fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsYWRkdSUyMHN3ZWV0fGVufDB8fHx8MTc2NjQ2Njk5NXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "laddu sweet"
-    },
-    {
-      "id": "menu-palkova",
-      "description": "Milk sweet",
-      "imageUrl": "https://images.unsplash.com/photo-1664744471471-5a28a4ae0cdb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtaWxrJTIwc3dlZXR8ZW58MHx8fHwxNzY2NDY2OTk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "milk sweet"
-    },
-    {
-      "id": "menu-honey-cake",
-      "description": "Honey flavored cake",
-      "imageUrl": "https://images.unsplash.com/photo-1731045102967-6e97132a7245?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxob25leSUyMGNha2V8ZW58MHx8fHwxNzY2NDY2OTk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "honey cake"
     }
   ]
 }
