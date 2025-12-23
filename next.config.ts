@@ -55,7 +55,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'tse3.mm.bing.net',
+        hostname: '*.bing.net',
         port: '',
         pathname: '/**',
       },
@@ -92,12 +92,6 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'assets.vogue.com',
-        port: '',
-        pathname: '/**',
-      },
-      {
-        protocol: 'https',
-        hostname: 'tse1.mm.bing.net',
         port: '',
         pathname: '/**',
       },
@@ -241,19 +235,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'tse4.mm.bing.net',
-        port: '',
-        pathname: '/**',
-      },
-      {
-        protocol: 'https',
         hostname: 'bonmasala.com',
-        port: '',
-        pathname: '/**',
-      },
-      {
-        protocol: 'https',
-        hostname: 'tse2.mm.bing.net',
         port: '',
         pathname: '/**',
       },
@@ -382,5 +364,3 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
-
-    
