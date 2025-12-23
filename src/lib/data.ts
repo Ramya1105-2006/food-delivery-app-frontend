@@ -1,6 +1,6 @@
 
 import { PlaceHolderImages } from "./placeholder-images";
-import type { Restaurant } from "./types";
+import type { Restaurant, MenuItem } from "./types";
 
 const getImage = (id: string) => {
     const img = PlaceHolderImages.find(p => p.id === id);
@@ -23,7 +23,7 @@ const mockRestaurants: Restaurant[] = [
       cuisine: "South Indian",
       rating: 4.8,
       deliveryTime: "20-30 min",
-      coverImage: getImage('restaurant-south-indian'),
+      coverImage: getImage('restaurant-rest_south_01'),
       menu: [
         {
           title: "South Indian",
@@ -44,7 +44,7 @@ const mockRestaurants: Restaurant[] = [
       cuisine: "North Indian",
       rating: 4.7,
       deliveryTime: "30-40 min",
-      coverImage: getImage('restaurant-punjabi-dhaba'),
+      coverImage: getImage('restaurant-rest_north_01'),
       menu: [
         {
           title: "North Indian",
@@ -64,7 +64,7 @@ const mockRestaurants: Restaurant[] = [
       cuisine: "Biryani",
       rating: 4.9,
       deliveryTime: "35-45 min",
-      coverImage: getImage('restaurant-biryani-palace'),
+      coverImage: getImage('restaurant-rest_biryani_01'),
       menu: [
         {
           title: "Biryani",
@@ -83,7 +83,7 @@ const mockRestaurants: Restaurant[] = [
       cuisine: "Street Food",
       rating: 4.6,
       deliveryTime: "15-25 min",
-      coverImage: getImage('restaurant-chaat-corner'),
+      coverImage: getImage('restaurant-rest_street_01'),
       menu: [
         {
           title: "Street Food",
@@ -103,7 +103,7 @@ const mockRestaurants: Restaurant[] = [
       cuisine: "Snacks",
       rating: 4.4,
       deliveryTime: "20-30 min",
-      coverImage: getImage('restaurant-wok-express'),
+      coverImage: getImage('restaurant-rest_snacks_01'),
       menu: [
         {
           title: "Snacks",
@@ -122,7 +122,7 @@ const mockRestaurants: Restaurant[] = [
       cuisine: "Desserts",
       rating: 4.9,
       deliveryTime: "20-30 min",
-      coverImage: getImage('restaurant-sweet-delights'),
+      coverImage: getImage('restaurant-rest_dessert_01'),
       menu: [
         {
           title: "Desserts",
@@ -138,7 +138,7 @@ const mockRestaurants: Restaurant[] = [
   ];
 
 // Simulate API call
-export async function getRestaurants() {
+export async function getRestaurants(): Promise<Omit<Restaurant, 'menu'>[]> {
   await new Promise(resolve => setTimeout(resolve, 500));
   return mockRestaurants.map(({ menu, ...restaurant }) => {
     // We don't need the full menu on the list page
@@ -146,8 +146,20 @@ export async function getRestaurants() {
   });
 }
 
-export async function getRestaurantById(id: string) {
+export async function getRestaurantById(id: string): Promise<Restaurant | undefined> {
   await new Promise(resolve => setTimeout(resolve, 300));
   const restaurant = mockRestaurants.find(r => r.id === id);
   return restaurant;
+}
+
+export async function getPopularDishes(): Promise<MenuItem[]> {
+    await new Promise(resolve => setTimeout(resolve, 200));
+    // Return a selection of popular dishes from various restaurants
+    const popular: MenuItem[] = [
+        mockRestaurants[0].menu[0].items[0], // Masala Dosa
+        mockRestaurants[2].menu[0].items[0], // Chicken Biryani
+        mockRestaurants[1].menu[0].items[0], // Paneer Butter Masala
+        mockRestaurants[3].menu[0].items[0], // Pani Puri
+    ];
+    return popular;
 }

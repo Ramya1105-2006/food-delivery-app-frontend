@@ -2,7 +2,7 @@
 "use client";
 
 import { useState } from "react";
-import { getRestaurants } from "@/lib/data";
+import { getRestaurants, getPopularDishes } from "@/lib/data";
 import { DishCard } from "@/components/DishCard";
 import { RestaurantCard } from "@/components/RestaurantCard";
 import { Input } from "@/components/ui/input";
@@ -27,13 +27,6 @@ const cuisineCategories = [
   { name: "Street Food", icon: "https://picsum.photos/seed/cat4/100", emoji: "🌶️" },
   { name: "Snacks", icon: "https://picsum.photos/seed/cat5/100", emoji: "🍔" },
   { name: "Desserts", icon: "https://picsum.photos/seed/cat7/100", emoji: "🍰" },
-];
-
-const popularDishes: MenuItem[] = [
-    { id: "si-1", name: "Masala Dosa", description: "Crispy dosa with spiced potato filling", price: 120, image: {id: "menu-dosa", description: "dosa", imageUrl:"https://images.unsplash.com/photo-1643221124559-62b8a78377da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXNhbGElMjBkb3NhfGVufDB8fHx8MTcxNzUzNjM0Nnww&ixlib=rb-4.0.3&q=80&w=1080", imageHint: "dosa"}, type: 'veg' },
-    { id: "b-1", name: "Chicken Biryani", description: "Aromatic basmati rice with chicken", price: 220, image: {id: "menu-chicken-biryani", description: "biryani", imageUrl:"https://images.unsplash.com/photo-1565557623262-b51c2513a641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlja2VuJTIwYmlyeWFuaXxlbnwwfHx8fDE3MTc1MzY2ODV8MA&ixlib=rb-4.0.3&q=80&w=1080", imageHint:"biryani"}, type: 'non-veg' },
-    { id: "ni-1", name: "Paneer Butter Masala", description: "Paneer cooked in rich tomato gravy", price: 180, image: {id: "menu-paneer-butter-masala", description: "paneer", imageUrl:"https://images.unsplash.com/photo-1565557623262-b51c2513a641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYW5lZXIlMjBidXR0ZXIlMjBtYXNhbGF8ZW58MHx8fHwxNzE3NTM2ODgxfDA&ixlib=rb-4.0.3&q=80&w=1080", imageHint:"paneer"}, type: 'veg' },
-    { id: "sf-1", name: "Pani Puri", description: "Crispy puris with tangy water", price: 40, image: {id: "menu-pani-puri", description: "puri", imageUrl:"https://images.unsplash.com/photo-1631782290008-59c4a8d38b64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYW5pJTIwcHVyaXxlbnwwfHx8fDE3MTc1MzcwMTN8MA&ixlib=rb-4.0.3&q=80&w=1080", imageHint:"puri"}, type: 'veg' },
 ];
 
 const features = [
@@ -77,6 +70,15 @@ function TopRestaurants() {
 
 export default function Home() {
     const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+    const [popularDishes, setPopularDishes] = useState<MenuItem[]>([]);
+
+    useState(() => {
+        async function fetchDishes() {
+            const dishes = await getPopularDishes();
+            setPopularDishes(dishes);
+        }
+        fetchDishes();
+    });
 
     const handleCategorySelect = (categoryName: string) => {
         setSelectedCategory(categoryName);
@@ -93,11 +95,18 @@ export default function Home() {
         // This is a mock filter. In a real app, you'd fetch this data.
         // For now, it just filters the popular dishes based on some keywords.
         const lowerCaseCategory = selectedCategory.toLowerCase();
+        
+        // A more robust filtering logic
+        if(lowerCaseCategory.includes('south indian')) return popularDishes.filter(d => d.id.startsWith('si-'));
+        if(lowerCaseCategory.includes('north indian')) return popularDishes.filter(d => d.id.startsWith('ni-'));
+        if(lowerCaseCategory.includes('biryani')) return popularDishes.filter(d => d.id.startsWith('b-'));
+        if(lowerCaseCategory.includes('street food')) return popularDishes.filter(d => d.id.startsWith('sf-'));
+        if(lowerCaseCategory.includes('snacks')) return popularDishes.filter(d => d.id.startsWith('sn-'));
+        if(lowerCaseCategory.includes('desserts')) return popularDishes.filter(d => d.id.startsWith('d-'));
+
         return popularDishes.filter(dish => 
             dish.name.toLowerCase().includes(lowerCaseCategory) || 
-            dish.description.toLowerCase().includes(lowerCaseCategory) ||
-            (lowerCaseCategory.includes('biryani') && dish.name.toLowerCase().includes('biryani')) ||
-            (lowerCaseCategory.includes('south') && dish.name.toLowerCase().includes('dosa'))
+            dish.description.toLowerCase().includes(lowerCaseCategory)
         );
     }
     
@@ -119,7 +128,7 @@ export default function Home() {
         />
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-white px-4">
-          <h1 className="text-4xl md:text-6xl font-bold font-headline animate-fade-in-down">
+          <h1 className="text-4xl md:text-6xl font-bold animate-fade-in-down">
             Order Authentic Indian Food Near You
           </h1>
           <p className="mt-4 text-lg md:text-xl max-w-2xl animate-fade-in-up">
@@ -150,7 +159,7 @@ export default function Home() {
       <div className="container mx-auto px-4 py-8">
         {/* Cuisine Categories Section */}
         <section className="py-12">
-            <h2 className="text-3xl font-bold font-headline mb-8 text-center">What's on your mind?</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center">What's on your mind?</h2>
              <Carousel opts={{ align: "start" }} className="w-full">
                 <CarouselContent>
                     {cuisineCategories.map((category) => (
@@ -178,7 +187,7 @@ export default function Home() {
         <section className="py-12">
             {selectedCategory ? (
                 <div className="flex items-center justify-between mb-8">
-                    <h2 className="text-3xl font-bold font-headline">
+                    <h2 className="text-3xl font-bold">
                         {selectedCategoryDetails?.emoji} {selectedCategory}
                     </h2>
                     <Button variant="ghost" onClick={clearCategorySelection}>
@@ -187,7 +196,7 @@ export default function Home() {
                     </Button>
                 </div>
             ) : (
-                <h2 className="text-3xl font-bold font-headline mb-8">Top Picks For You</h2>
+                <h2 className="text-3xl font-bold mb-8">Top Picks For You</h2>
             )}
 
             {filteredDishes.length > 0 ? (
@@ -206,7 +215,7 @@ export default function Home() {
         {/* Top Restaurants Section */}
         <section className="py-12 bg-secondary/30 rounded-lg -mx-4 px-4">
           <div className="flex items-center justify-between mb-8">
-            <h2 className="text-3xl font-bold font-headline">Top Restaurants Near You</h2>
+            <h2 className="text-3xl font-bold">Top Restaurants Near You</h2>
             <Button variant="ghost" asChild>
                 <Link href="#">See All <ArrowRight className="ml-2 h-4 w-4" /></Link>
             </Button>
@@ -216,7 +225,7 @@ export default function Home() {
 
         {/* Offers & Discounts Section */}
         <section className="py-12">
-            <h2 className="text-3xl font-bold font-headline mb-8 text-center">Offers For You</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center">Offers For You</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="relative bg-gradient-to-r from-yellow-400 to-orange-500 rounded-xl p-8 text-white overflow-hidden">
                     <div className="relative z-10">
@@ -239,7 +248,7 @@ export default function Home() {
         
         {/* Why Choose Us Section */}
         <section className="py-12">
-            <h2 className="text-3xl font-bold font-headline mb-12 text-center">Why Choose Us?</h2>
+            <h2 className="text-3xl font-bold mb-12 text-center">Why Choose Us?</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                 {features.map((feature) => (
                     <div key={feature.title} className="text-center p-6 bg-card rounded-lg shadow-sm hover:shadow-lg transition-shadow">
@@ -256,5 +265,3 @@ export default function Home() {
     </div>
   );
 }
-
-    
