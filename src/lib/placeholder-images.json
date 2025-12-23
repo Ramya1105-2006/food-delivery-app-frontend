@@ -99,7 +99,7 @@
     {
       "id": "menu-chicken-biryani",
       "description": "Aromatic Chicken Dum Biryani.",
-      "imageUrl": "https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Chicken-Biryani-Recipe.jpg",
+      "imageUrl": "https://sifu.unileversolutions.com/image/en-LK/recipe-topvisual/2/1260-709/authentic-chicken-biryani-50434132.jpg",
       "imageHint": "chicken biryani"
     },
     {
@@ -141,7 +141,7 @@
     {
       "id": "menu-kathi-roll",
       "description": "A kathi roll.",
-      "imageUrl": "https://images.unsplash.com/photo-1697307157652-2b83f11cf9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxrYXRoaSUyMHJvbGx8ZW58MHx8fHwxNzY2NDI1MjYzfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1697307157652-2b83f11cf9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxrYXRoaSUyMHJvbGx8ZW58MHx8fHwxNzY2NDI1MjYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "kathi roll"
     },
     {
@@ -165,7 +165,7 @@
     {
       "id": "menu-pizza",
       "description": "A cheese pizza.",
-      "imageUrl": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwaXp6YXxlbnwwfHx8fDE3NjY0NjI1OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwaXp6YXxlbnwwfHx8fDE3NjY0NjI1OTJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "pizza"
     },
     {
@@ -177,7 +177,7 @@
     {
       "id": "menu-rasgulla",
       "description": "Rasgulla sweets.",
-      "imageUrl": "https://images.unsplash.com/photo-1714799263412-2e0c1f875959?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyYXNndWxsYXxlbnwwfHx8fDE3NjY0MTY5ODN8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1714799263412-2e0c1f875959?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyYXNndWxsYXxlbnwwfHx8fDE3NjY0MTY5ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "rasgulla"
     },
     {
@@ -189,7 +189,7 @@
     {
       "id": "menu-falooda",
       "description": "A glass of falooda.",
-      "imageUrl": "https://images.unsplash.com/photo-1630823183554-21c9702297f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmYWxvb2RhfGVufDB8fHx8MTc2NjQ2MzUzM3ww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1630823183554-21c9702297f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmYWxvb2RhfGVufDB8fHx8MTc2NjQ2MzUzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "falooda"
     }
   ]

@@ -124,6 +124,12 @@ const nextConfig: NextConfig = {
         hostname: 'images7.alphacoders.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'sifu.unileversolutions.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
