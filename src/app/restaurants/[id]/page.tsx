@@ -63,7 +63,7 @@ export default async function RestaurantPage({ params }: { params: { id: string 
 
       <div className="container mx-auto px-4 py-12">
         <div className="max-w-4xl mx-auto">
-            {restaurant.menu.map((category, index) => (
+            {restaurant.menu.map((category) => (
             <section key={category.title} className="mb-12">
                 <h2 className="text-3xl font-bold font-headline mb-6">{category.title}</h2>
                 <div className="flex flex-col">

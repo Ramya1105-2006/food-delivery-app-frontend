@@ -26,7 +26,7 @@ const cuisineCategories = [
   { name: "Biryani", icon: "https://picsum.photos/seed/cat3/100", emoji: "🍗" },
   { name: "Street Food", icon: "https://picsum.photos/seed/cat4/100", emoji: "🌶️" },
   { name: "Chinese", icon: "https://picsum.photos/seed/cat5/100", emoji: "🍜" },
-  { name: "Fast Food", icon: "https://picsum.photos/seed_fastfood/100/100", emoji: "🍔" },
+  { name: "Fast Food", icon: "https://picsum.photos/seed/fastfood/100", emoji: "🍔" },
   { name: "Desserts", icon: "https://picsum.photos/seed/cat7/100", emoji: "🍰" },
 ];
 
@@ -121,7 +121,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-white px-4">
           <h1 className="text-4xl md:text-6xl font-bold font-headline animate-fade-in-down">
-            Delicious Indian Food, Delivered to Your Doorstep
+            Order Authentic Indian Food Near You
           </h1>
           <p className="mt-4 text-lg md:text-xl max-w-2xl animate-fade-in-up">
             From street food to royal biryanis — order your favorites anytime.
@@ -257,4 +257,3 @@ export default function Home() {
     </div>
   );
 }
-
