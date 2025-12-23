@@ -61,6 +61,12 @@ const nextConfig: NextConfig = {
       { protocol: 'https', hostname: 'thestayathomechef.com' },
       { protocol: 'https', hostname: 'cdn3.foodviva.com' },
       { protocol: 'https', hostname: 'www.kannammacooks.com' },
+      { protocol: 'https', hostname: 'www.foodie-trail.com' },
+      { protocol: 'https', hostname: 'deliciouslittlebites.com' },
+      { protocol: 'https', hostname: 'food-fanatic-res.cloudinary.com' },
+      { protocol: 'https', hostname: 'm.media-amazon.com' },
+      { protocol: 'https', hostname: 'thebigmansworld.com' },
+      { protocol: 'https', hostname: 'cdn.pixabay.com' },
     ],
   },
 };
