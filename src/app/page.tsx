@@ -110,12 +110,12 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-[60vh] min-h-[400px] w-full">
         <Image 
-          src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=2080&auto=format&fit=crop"
+          src="https://img.freepik.com/premium-photo/traditional-south-indian-meal-food-served-big-banana-leaf-food-platter-complete-thali-selective-focus_466689-50749.jpg?w=2000"
           alt="A delicious spread of Indian food"
           fill
           className="object-cover"
           priority
-          data-ai-hint="indian food spread"
+          data-ai-hint="south indian food"
         />
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-white px-4">
@@ -256,3 +256,5 @@ export default function Home() {
     </div>
   );
 }
+
+    
