@@ -25,16 +25,15 @@ const cuisineCategories = [
   { name: "North Indian", icon: "https://picsum.photos/seed/cat2/100", emoji: "🍲" },
   { name: "Biryani", icon: "https://picsum.photos/seed/cat3/100", emoji: "🍗" },
   { name: "Street Food", icon: "https://picsum.photos/seed/cat4/100", emoji: "🌶️" },
-  { name: "Chinese", icon: "https://picsum.photos/seed/cat5/100", emoji: "🍜" },
-  { name: "Fast Food", icon: "https://picsum.photos/seed/fastfood/100", emoji: "🍔" },
+  { name: "Snacks", icon: "https://picsum.photos/seed/cat5/100", emoji: "🍔" },
   { name: "Desserts", icon: "https://picsum.photos/seed/cat7/100", emoji: "🍰" },
 ];
 
 const popularDishes: MenuItem[] = [
-    { id: "sih1", name: "Masala Dosa", description: "Crispy crepe with spiced potato filling.", price: 120.00, image: { id:"menu-dosa", description:"dosa", imageUrl: "https://images.unsplash.com/photo-1643221124559-62b8a78377da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXNhbGElMjBkb3NhfGVufDB8fHx8MTcxNzUzNjM0Nnww&ixlib=rb-4.0.3&q=80&w=1080", imageHint: "masala dosa" }, type: 'veg' },
-    { id: "bp1", name: "Chicken Dum Biryani", description: "Aromatic rice and chicken cooked in a sealed pot.", price: 350.00, image: { id:"menu-chicken-biryani", description:"biryani", imageUrl: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlja2VuJTIwYmlyeWFuaXxlbnwwfHx8fDE3MTc1MzY2ODV8MA&ixlib=rb-4.0.3&q=80&w=1080", imageHint: "chicken biryani" }, type: 'non-veg' },
-    { id: "pd1", name: "Paneer Butter Masala", description: "Cottage cheese in a creamy tomato gravy.", price: 320.00, image: { id:"menu-paneer-butter-masala", description:"paneer", imageUrl: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYW5lZXIlMjBidXR0ZXIlMjBtYXNhbGF8ZW58MHx8fHwxNzE3NTM2ODgxfDA&ixlib=rb-4.0.3&q=80&w=1080", imageHint: "paneer masala" }, type: 'veg' },
-    { id: "cc1", name: "Pani Puri", description: "Hollow crisps filled with tangy water.", price: 70.00, image: { id: "menu-pani-puri", description:"puri", imageUrl: "https://images.unsplash.com/photo-1631782290008-59c4a8d38b64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYW5pJTIwcHVyaXxlbnwwfHx8fDE3MTc1MzcwMTN8MA&ixlib=rb-4.0.3&q=80&w=1080", imageHint: "pani puri" }, type: 'veg' },
+    { id: "si-1", name: "Masala Dosa", description: "Crispy dosa with spiced potato filling", price: 120, image: {id: "menu-dosa", description: "dosa", imageUrl:"https://images.unsplash.com/photo-1643221124559-62b8a78377da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXNhbGElMjBkb3NhfGVufDB8fHx8MTcxNzUzNjM0Nnww&ixlib=rb-4.0.3&q=80&w=1080", imageHint: "dosa"}, type: 'veg' },
+    { id: "b-1", name: "Chicken Biryani", description: "Aromatic basmati rice with chicken", price: 220, image: {id: "menu-chicken-biryani", description: "biryani", imageUrl:"https://images.unsplash.com/photo-1565557623262-b51c2513a641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlja2VuJTIwYmlyeWFuaXxlbnwwfHx8fDE3MTc1MzY2ODV8MA&ixlib=rb-4.0.3&q=80&w=1080", imageHint:"biryani"}, type: 'non-veg' },
+    { id: "ni-1", name: "Paneer Butter Masala", description: "Paneer cooked in rich tomato gravy", price: 180, image: {id: "menu-paneer-butter-masala", description: "paneer", imageUrl:"https://images.unsplash.com/photo-1565557623262-b51c2513a641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYW5lZXIlMjBidXR0ZXIlMjBtYXNhbGF8ZW58MHx8fHwxNzE3NTM2ODgxfDA&ixlib=rb-4.0.3&q=80&w=1080", imageHint:"paneer"}, type: 'veg' },
+    { id: "sf-1", name: "Pani Puri", description: "Crispy puris with tangy water", price: 40, image: {id: "menu-pani-puri", description: "puri", imageUrl:"https://images.unsplash.com/photo-1631782290008-59c4a8d38b64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYW5pJTIwcHVyaXxlbnwwfHx8fDE3MTc1MzcwMTN8MA&ixlib=rb-4.0.3&q=80&w=1080", imageHint:"puri"}, type: 'veg' },
 ];
 
 const features = [

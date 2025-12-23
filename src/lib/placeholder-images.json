@@ -1,28 +1,40 @@
 {
   "placeholderImages": [
     {
-      "id": "restaurant-south-indian",
+      "id": "restaurant-rest_south_01",
       "description": "A traditional South Indian restaurant setting.",
       "imageUrl": "https://images.unsplash.com/photo-1555949258-a3e3d4e0a905?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxpbmRpYW4lMjByZXN0YXVyYW50fGVufDB8fHx8MTc2NjU5ODkzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "indian restaurant"
     },
     {
-      "id": "restaurant-biryani-palace",
-      "description": "An elegant restaurant specializing in Biryani.",
-      "imageUrl": "https://images.unsplash.com/photo-1587574293340-e0011c4e8ecf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxpbmRpYW4lMjByZXN0YXVyYW50fGVufDB8fHx8MTc2NjQxMjk0MXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "mughlai restaurant"
-    },
-    {
-      "id": "restaurant-punjabi-dhaba",
+      "id": "restaurant-rest_north_01",
       "description": "A rustic and lively Punjabi dhaba.",
       "imageUrl": "https://images.unsplash.com/photo-1606495145318-34b54e3f491c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwdW5qYWJpJTIwZGhhYmF8ZW58MHx8fHwxNzE3NTM2MTk2fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "imageHint": "punjabi dhaba"
     },
     {
-      "id": "restaurant-chaat-corner",
+      "id": "restaurant-rest_biryani_01",
+      "description": "An elegant restaurant specializing in Biryani.",
+      "imageUrl": "https://images.unsplash.com/photo-1587574293340-e0011c4e8ecf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxpbmRpYW4lMjByZXN0YXVyYW50fGVufDB8fHx8MTc2NjQxMjk0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mughlai restaurant"
+    },
+    {
+      "id": "restaurant-rest_street_01",
       "description": "A bustling Indian street food stall.",
       "imageUrl": "https://images.unsplash.com/photo-1585799293674-399853c09b1f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGFhdCUyMHN0YWxsfGVufDB8fHx8MTcxNzUzNjI4MHww&ixlib=rb-4.0.3&q=80&w=1080",
       "imageHint": "street food"
+    },
+    {
+      "id": "restaurant-rest_snacks_01",
+      "description": "A modern cafe serving snacks.",
+      "imageUrl": "https://images.unsplash.com/photo-1555992336-fb0d29498b13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaGluZXNlJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjY1MjY4MDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "snack cafe"
+    },
+    {
+      "id": "restaurant-rest_dessert_01",
+      "description": "A cozy dessert shop with a variety of sweets.",
+      "imageUrl": "https://images.unsplash.com/photo-1551024601-bec78aea704b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkZXNzZXJ0JTIwc2hvcHxlbnwwfHx8fDE3NjY1MjY4MDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dessert shop"
     },
     {
       "id": "menu-dosa",
@@ -43,10 +55,46 @@
       "imageHint": "medu vada"
     },
     {
-      "id": "menu-lemon-rice",
-      "description": "Tangy and flavorful lemon rice.",
-      "imageUrl": "https://media.istockphoto.com/id/1321748283/photo/lemon-rice-is-a-south-indian-recipe.jpg?s=1024x1024&w=is&k=20&c=a48-THP3CFJ3TCSfP3ZZu8_L2K-s6Yj_raddpIxe_Bw=",
-      "imageHint": "lemon rice"
+      "id": "menu-pongal",
+      "description": "A bowl of delicious pongal.",
+      "imageUrl": "https://images.unsplash.com/photo-1578755993043-ae4e4b7a19de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwb25nYWx8ZW58MHx8fHwxNzY2NDExNzgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pongal"
+    },
+    {
+      "id": "menu-uttapam",
+      "description": "A vegetable uttapam.",
+      "imageUrl": "https://picsum.photos/seed/uttapam/600/400",
+      "imageHint": "uttapam"
+    },
+    {
+      "id": "menu-paneer-butter-masala",
+      "description": "Creamy Paneer Butter Masala.",
+      "imageUrl": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYW5lZXIlMjBidXR0ZXIlMjBtYXNhbGF8ZW58MHx8fHwxNzE3NTM2ODgxfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "paneer masala"
+    },
+    {
+      "id": "menu-naan",
+      "description": "Hot and fluffy Garlic Naan bread.",
+      "imageUrl": "https://images.unsplash.com/photo-1628543788789-3687396652a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuYWFuJTIwYnJlYWR8ZW58MHx8fHwxNzE3NTM2OTgzfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "naan bread"
+    },
+    {
+      "id": "menu-dal-makhani",
+      "description": "Rich and creamy Dal Makhani.",
+      "imageUrl": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYWwlMjBtYWtoYW5pfGVufDB8fHx8MTcxNzUzNjkxN3ww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "dal makhani"
+    },
+    {
+      "id": "menu-chole-bhature",
+      "description": "A plate of chole bhature.",
+      "imageUrl": "https://images.unsplash.com/photo-1569774797008-4d7ec4c09669?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaG9sZSUyMGJoYXR1cmV8ZW58MHx8fHwxNzY2NDYzNTMzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chole bhature"
+    },
+    {
+      "id": "menu-rajma-chawal",
+      "description": "A bowl of rajma chawal.",
+      "imageUrl": "https://images.unsplash.com/photo-1663792816111-ae062758516e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxyYWptYSUyMGNoYXdhbHxlbnwwfHx8fDE3NjY0NjM1MzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rajma chawal"
     },
     {
       "id": "menu-chicken-biryani",
@@ -67,40 +115,22 @@
       "imageHint": "vegetable biryani"
     },
     {
-      "id": "menu-chicken-kebab",
-      "description": "Grilled Chicken Seekh Kebabs.",
-      "imageUrl": "https://images.unsplash.com/photo-1629436214303-9118c7ac9414?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlja2VuJTIwa2ViYWJ8ZW58MHx8fHwxNzE3NTM2ODIzfDA&ixlib=rb-4.0.3&q=80&w=1080",
-      "imageHint": "chicken kebab"
-    },
-    {
-      "id": "menu-paneer-butter-masala",
-      "description": "Creamy Paneer Butter Masala.",
-      "imageUrl": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYW5lZXIlMjBidXR0ZXIlMjBtYXNhbGF8ZW58MHx8fHwxNzE3NTM2ODgxfDA&ixlib=rb-4.0.3&q=80&w=1080",
-      "imageHint": "paneer masala"
-    },
-    {
-      "id": "menu-dal-makhani",
-      "description": "Rich and creamy Dal Makhani.",
-      "imageUrl": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYWwlMjBtYWtoYW5pfGVufDB8fHx8MTcxNzUzNjkxN3ww&ixlib=rb-4.0.3&q=80&w=1080",
-      "imageHint": "dal makhani"
-    },
-    {
-      "id": "menu-butter-chicken",
-      "description": "Velvety and delicious Butter Chicken.",
-      "imageUrl": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidXR0ZXIlMjBjaGlja2VufGVufDB8fHx8MTcxNzUzNjk1MXww&ixlib=rb-4.0.3&q=80&w=1080",
-      "imageHint": "butter chicken"
-    },
-    {
-      "id": "menu-naan",
-      "description": "Hot and fluffy Garlic Naan bread.",
-      "imageUrl": "https://images.unsplash.com/photo-1628543788789-3687396652a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuYWFuJTIwYnJlYWR8ZW58MHx8fHwxNzE3NTM2OTgzfDA&ixlib=rb-4.0.3&q=80&w=1080",
-      "imageHint": "naan bread"
-    },
-    {
       "id": "menu-pani-puri",
       "description": "A plate of delicious Pani Puri.",
       "imageUrl": "https://images.unsplash.com/photo-1631782290008-59c4a8d38b64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYW5pJTIwcHVyaXxlbnwwfHx8fDE3MTc1MzcwMTN8MA&ixlib=rb-4.0.3&q=80&w=1080",
       "imageHint": "pani puri"
+    },
+    {
+      "id": "menu-bhel-puri",
+      "description": "A bowl of bhel puri.",
+      "imageUrl": "https://images.unsplash.com/photo-1723173938925-09f0171c9a27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxiaGVsJTIwcHVyaXxlbnwwfHx8fDE3NjY0NjM1MzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bhel puri"
+    },
+    {
+      "id": "menu-vada-pav",
+      "description": "A vada pav.",
+      "imageUrl": "https://images.unsplash.com/photo-1631788012420-a0d6a3cfcdfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx2YWRhJTIwcGF2fGVufDB8fHx8MTc2NjQ2MzUzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vada pav"
     },
     {
       "id": "menu-samosa-chaat",
@@ -109,58 +139,58 @@
       "imageHint": "samosa chaat"
     },
     {
-      "id": "restaurant-wok-express",
-      "description": "A modern Indian-Chinese restaurant.",
-      "imageUrl": "https://images.unsplash.com/photo-1555992336-fb0d29498b13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaGluZXNlJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjY1MjY4MDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "chinese restaurant"
+      "id": "menu-kathi-roll",
+      "description": "A kathi roll.",
+      "imageUrl": "https://images.unsplash.com/photo-1697307157652-2b83f11cf9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxrYXRoaSUyMHJvbGx8ZW58MHx8fHwxNzY2NDI1MjYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "kathi roll"
     },
     {
-      "id": "menu-hakka-noodles",
-      "description": "A bowl of vegetable Hakka noodles.",
-      "imageUrl": "https://images.unsplash.com/photo-1631782290008-59c4a8d38b64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYWtrYSUyMG5vb2RsZXN8ZW58MHx8fHwxNzY2NTI2ODA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "hakka noodles"
+      "id": "menu-french-fries",
+      "description": "A bowl of french fries.",
+      "imageUrl": "https://images.unsplash.com/photo-1607329773021-91a5dbd5986f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZnJlbmNoJTIwZnJpZXN8ZW58MHx8fHwxNzY2MzU4MDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "french fries"
     },
     {
-      "id": "menu-schezwan-rice",
-      "description": "Spicy Schezwan fried rice.",
-      "imageUrl": "https://images.unsplash.com/photo-1589301760014-d929f39791e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzaGV6d2FuJTIwcmljZXxlbnwwfHx8fDE3NjY1MjY4MDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "fried rice"
+      "id": "menu-sandwich",
+      "description": "A vegetable sandwich.",
+      "imageUrl": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzYW5kd2ljaHxlbnwwfHx8fDE3NjYzODU4MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sandwich"
     },
     {
-      "id": "menu-gobi-manchurian",
-      "description": "Crispy Gobi Manchurian.",
-      "imageUrl": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnb2JpJTIwbWFuY2h1cmlhbnxlbnwwfHx8fDE3NjY1MjY4MDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "gobi manchurian"
+      "id": "menu-burger",
+      "description": "A chicken burger.",
+      "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidXJnZXJ8ZW58MHx8fHwxNzY2NDQ4ODQ3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "burger"
     },
     {
-      "id": "menu-chilli-chicken",
-      "description": "Spicy chilli chicken appetizer.",
-      "imageUrl": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsbGklMjBjaGlja2VufGVufDB8fHx8MTc2NjUyNjgwNXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "chilli chicken"
-    },
-    {
-      "id": "restaurant-sweet-delights",
-      "description": "A cozy dessert shop with a variety of sweets.",
-      "imageUrl": "https://images.unsplash.com/photo-1551024601-bec78aea704b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkZXNzZXJ0JTIwc2hvcHxlbnwwfHx8fDE3NjY1MjY4MDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "dessert shop"
+      "id": "menu-pizza",
+      "description": "A cheese pizza.",
+      "imageUrl": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwaXp6YXxlbnwwfHx8fDE3NjY0NjI1OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pizza"
     },
     {
       "id": "menu-gulab-jamun",
       "description": "Warm Gulab Jamuns in syrup.",
-      "imageUrl": "https://images.unsplash.com/photo-1631782290008-59c4a8d38b64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxndWxhYiUyMGphbXVufGVufDB8fHx8MTc2NjUyNjgwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1680993032090-1ef7ea9b51e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxndWxhYiUyMGphbXVufGVufDB8fHx8MTc2NjM0Mzg0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "gulab jamun"
     },
     {
-      "id": "menu-rasmalai",
-      "description": "Creamy Rasmalai dessert.",
-      "imageUrl": "https://images.unsplash.com/photo-1589301760014-d929f39791e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyYXNtYWxhaXxlbnwwfHx8fDE3NjY1MjY4MDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "rasmalai"
+      "id": "menu-rasgulla",
+      "description": "Rasgulla sweets.",
+      "imageUrl": "https://images.unsplash.com/photo-1714799263412-2e0c1f875959?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyYXNndWxsYXxlbnwwfHx8fDE3NjY0MTY5ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rasgulla"
     },
     {
-      "id": "menu-choco-truffle",
-      "description": "A slice of chocolate truffle cake.",
-      "imageUrl": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaG9jbyUyMHRydWZmbGV8ZW58MHx8fHwxNzY2NTI2ODA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "chocolate cake"
+      "id": "menu-ice-cream",
+      "description": "A scoop of ice cream.",
+      "imageUrl": "https://images.unsplash.com/photo-1576506295286-5cda18df43e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aWNlJTIwY3JlYW18ZW58MHx8fHwxNzY2Mzc3Mjk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ice cream"
+    },
+    {
+      "id": "menu-falooda",
+      "description": "A glass of falooda.",
+      "imageUrl": "https://images.unsplash.com/photo-1630823183554-21c9702297f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmYWxvb2RhfGVufDB8fHx8MTc2NjQ2MzUzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "falooda"
     }
   ]
 }
