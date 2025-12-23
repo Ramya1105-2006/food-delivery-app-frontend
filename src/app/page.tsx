@@ -6,7 +6,7 @@ import { getRestaurants, getPopularDishes } from "@/lib/data";
 import { DishCard } from "@/components/DishCard";
 import { RestaurantCard } from "@/components/RestaurantCard";
 import { Button } from "@/components/ui/button";
-import { MapPin, ArrowRight, Utensils, Bike, Leaf, ShieldCheck, ChevronLeft } from "lucide-react";
+import { ArrowRight, Utensils, Bike, Leaf, ShieldCheck, ChevronLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -132,14 +132,6 @@ export default function Home() {
           <p className="mt-4 text-lg md:text-xl max-w-2xl animate-fade-in-up">
             From street food to royal biryanis — order your favorites anytime.
           </p>
-          <div className="mt-8 flex w-full max-w-sm flex-col sm:flex-row items-center gap-2 rounded-full bg-white p-2 shadow-lg">
-            <div className="flex items-center w-full justify-center pl-4">
-              <MapPin className="h-5 w-5 text-muted-foreground" />
-              <Button variant="link" className="text-foreground font-semibold">
-                Select Location
-              </Button>
-            </div>
-          </div>
         </div>
       </section>
       
