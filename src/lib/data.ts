@@ -62,7 +62,7 @@ const mockRestaurants: Restaurant[] = [
           items: [
             { id: "ni-1", name: "Shawarma", description: "Spiced meat wrap with sauces", price: 160, image: getImage('menu-shawarma'), type: 'non-veg' },
             { id: "ni-2", name: "Chapathi", description: "Soft wheat flatbread", price: 40, image: getImage('menu-chapathi'), type: 'veg' },
-            { id: "ni-3", name: "Butter Chapathi", description: "Chapathi topped with butter", price: 50, image: getImage('menu-chapathi'), type: 'veg' },
+            { id: "ni-3", name: "Butter Chapathi", description: "Chapathi topped with butter", price: 50, image: getImage('menu-butter-chapathi'), type: 'veg' },
           ]
         }
       ]

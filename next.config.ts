@@ -232,6 +232,24 @@ const nextConfig: NextConfig = {
         hostname: 'images.squarespace-cdn.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'content.thriveglobal.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.krumpli.co.uk',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'tse4.mm.bing.net',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
