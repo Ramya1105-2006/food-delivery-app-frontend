@@ -102,7 +102,7 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
       {
-        protocol: 'https',
+        protocol: 'https,"',
         hostname: 'feeds.abplive.com',
         port: '',
         pathname: '/**',
@@ -198,7 +198,7 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
       {
-        protocol: 'https',
+        protocol: 'https,"',
         hostname: 'www.vegrecipesofindia.com',
         port: '',
         pathname: '/**',
@@ -292,6 +292,18 @@ const nextConfig: NextConfig = {
         hostname: 'gomathirecipes.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'tomatoblues.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.foodandwine.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
@@ -299,5 +311,4 @@ const nextConfig: NextConfig = {
 
 export default nextConfig;
 
-    
     
