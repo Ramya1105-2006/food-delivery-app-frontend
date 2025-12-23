@@ -30,7 +30,7 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
       {
-        protocol: 'https',
+        protocol: 'https' ,
         hostname: 'media.istockphoto.com',
         port: '',
         pathname: '/**',
